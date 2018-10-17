@@ -8,20 +8,11 @@ pipeline {
                 }
              }
         }
-        stage('Start Selenium Hub') {
-            agent {
-                docker {
-                   image 'selenium/node-chrome-debug'
-                   args '-p 5900:5900 --link hub:hub'
-                }
-             }
-        }
-        stage('Add Node to Hub') {
-            agent {
-                docker {
-                  image 'selenium/node-chrome-debug'
-                  args '-p 5900:5900 --link hub:hub'
-                }
+        stage('Setting Up Selenium Grid') {
+             steps{
+                sh "docker network create ${network}"
+                sh "docker run -d -p 5555:4444 --name ${seleniumHub} --network ${network} selenium/hub"
+                sh "docker run -d -e HUB_PORT_4444_TCP_ADDR=${seleniumHub} -e HUB_PORT_4444_TCP_PORT=4444 --network ${network} --name ${chrome} selenium/node-chrome"
              }
         }
         stage('Test') {
@@ -33,6 +24,15 @@ pipeline {
                     junit 'target/surefire-reports/*.xml'
                 }
             }
+        }
+        stage('Tearing Down Selenium Grid') {
+            steps {
+                //remove all the containers and volumes
+                sh "docker rm -vf ${chrome}"
+                sh "docker rm -vf ${firefox}"
+                sh "docker rm -vf ${seleniumHub}"
+                sh "docker network rm ${network}"
+          }
         }
     }
 }
