@@ -1,14 +1,14 @@
 -------------------------------------------------------------------------------
 Test set: de.neusta.b4u.RunCukesTest
 -------------------------------------------------------------------------------
-Tests run: 52, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 84.483 sec <<< FAILURE!
+Tests run: 52, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 82.866 sec <<< FAILURE!
 Then the account page is being displayed(Scenario: Login success [admin user])  Time elapsed: 0.003 sec  <<< FAILURE!
 java.lang.AssertionError: Account page is displayed
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.assertTrue(Assert.java:41)
 	at de.neusta.b4u.steps.login.LoginSteps.the_account_page_is_being_displayed(LoginSteps.java:97)
 	at ?.Then the account page is being displayed(login.feature:27)
-Scenario: Login success [admin user]  Time elapsed: 0.004 sec  <<< FAILURE!
+Scenario: Login success [admin user]  Time elapsed: 0.005 sec  <<< FAILURE!
 java.lang.AssertionError: Account page is displayed
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.assertTrue(Assert.java:41)

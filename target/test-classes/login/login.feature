@@ -13,7 +13,7 @@ Feature: [QA] Login
       | Username | loginView.userName |
       | Password | loginView.password |
       | Anmelden | loginView.login    |
-
+  @focus
   Scenario: Login success [standard user]
     Given I am on the login page
     And I provide the standard user credentials

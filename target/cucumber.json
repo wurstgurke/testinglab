@@ -1,0 +1,942 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "# Akzeptanzkriterien siehe https://portal.neusta.de/jira/browse/BFY-1040"
+      }
+    ],
+    "line": 3,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2391229472,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseSteps.setUp()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Ensure that all necessary login fields are displayed",
+        "description": "",
+        "id": "[qa]-login;ensure-that-all-necessary-login-fields-are-displayed;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 131822984,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseSteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5982026765,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am on the login page",
+            "match": {
+              "location": "LoginSteps.i_am_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 44334434,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I look for the element \"loginView.userName\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "loginView.userName",
+                  "offset": 24
+                }
+              ],
+              "location": "BaseSteps.i_look_for_the_element(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1939634,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the element looked for is being displayed",
+            "match": {
+              "location": "BaseSteps.the_element_looked_for_is_being_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@ugly"
+          },
+          {
+            "line": 2,
+            "name": "@focus"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 955682935,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseSteps.setUp()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Ensure that all necessary login fields are displayed",
+        "description": "",
+        "id": "[qa]-login;ensure-that-all-necessary-login-fields-are-displayed;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 73912246,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseSteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5740946928,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am on the login page",
+            "match": {
+              "location": "LoginSteps.i_am_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 44079945,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I look for the element \"loginView.password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "loginView.password",
+                  "offset": 24
+                }
+              ],
+              "location": "BaseSteps.i_look_for_the_element(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 17746,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the element looked for is being displayed",
+            "match": {
+              "location": "BaseSteps.the_element_looked_for_is_being_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@ugly"
+          },
+          {
+            "line": 2,
+            "name": "@focus"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 870754762,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseSteps.setUp()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Ensure that all necessary login fields are displayed",
+        "description": "",
+        "id": "[qa]-login;ensure-that-all-necessary-login-fields-are-displayed;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 70249332,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseSteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5727209397,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am on the login page",
+            "match": {
+              "location": "LoginSteps.i_am_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 27538119,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I look for the element \"loginView.login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "loginView.login",
+                  "offset": 24
+                }
+              ],
+              "location": "BaseSteps.i_look_for_the_element(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 19634,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the element looked for is being displayed",
+            "match": {
+              "location": "BaseSteps.the_element_looked_for_is_being_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@ugly"
+          },
+          {
+            "line": 2,
+            "name": "@focus"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 994779187,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseSteps.setUp()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Login success [standard user]",
+        "description": "",
+        "id": "[qa]-login;login-success-[standard-user]",
+        "after": [
+          {
+            "result": {
+              "duration": 71716612,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseSteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5722144902,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I am on the login page",
+            "match": {
+              "location": "LoginSteps.i_am_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 390094841,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I provide the standard user credentials",
+            "match": {
+              "location": "LoginSteps.i_provide_the_standard_user_credentials()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1588759865,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I login",
+            "match": {
+              "location": "LoginSteps.i_login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 30148337,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "the account page is being displayed",
+            "match": {
+              "location": "LoginSteps.the_account_page_is_being_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 16,
+            "name": "@focus"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 887384564,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseSteps.setUp()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Login success [admin user]",
+        "description": "",
+        "id": "[qa]-login;login-success-[admin-user]",
+        "after": [
+          {
+            "result": {
+              "duration": 70076022,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseSteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5780456254,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I am on the login page",
+            "match": {
+              "location": "LoginSteps.i_am_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 401417363,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I provide the admin user credentials",
+            "match": {
+              "location": "LoginSteps.i_provide_the_admin_user_credentials()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 972847014,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I login",
+            "match": {
+              "location": "LoginSteps.i_login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1024713812,
+              "error_message": "java.lang.AssertionError: Account page is displayed\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat de.neusta.b4u.steps.login.LoginSteps.the_account_page_is_being_displayed(LoginSteps.java:97)\r\n\tat ✽.Then the account page is being displayed(login.feature:27)\r\n",
+              "status": "failed"
+            },
+            "line": 27,
+            "name": "the account page is being displayed",
+            "match": {
+              "location": "LoginSteps.the_account_page_is_being_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 851574400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseSteps.setUp()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "Login failure wrong username [standard user]",
+        "description": "",
+        "id": "[qa]-login;login-failure-wrong-username-[standard-user]",
+        "after": [
+          {
+            "result": {
+              "duration": 70281049,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseSteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5954805436,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I am on the login page",
+            "match": {
+              "location": "LoginSteps.i_am_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 348741787,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I provide the standard user credentials",
+            "match": {
+              "location": "LoginSteps.i_provide_the_standard_user_credentials()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 251473510,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I provide an invalid username",
+            "match": {
+              "location": "LoginSteps.i_provide_an_invalid_username()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 987026315,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I login",
+            "match": {
+              "location": "LoginSteps.i_login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 28948762,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "an error message is being displayed \"is-error\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "is-error",
+                  "offset": 37
+                }
+              ],
+              "location": "BaseSteps.an_error_message_is_being_displayed(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 804721500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseSteps.setUp()"
+            }
+          }
+        ],
+        "line": 36,
+        "name": "Login failure wrong username [admin user]",
+        "description": "",
+        "id": "[qa]-login;login-failure-wrong-username-[admin-user]",
+        "after": [
+          {
+            "result": {
+              "duration": 62706395,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseSteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5950278617,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I am on the login page",
+            "match": {
+              "location": "LoginSteps.i_am_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 358453926,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I provide the admin user credentials",
+            "match": {
+              "location": "LoginSteps.i_provide_the_admin_user_credentials()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 276766154,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I provide an invalid username",
+            "match": {
+              "location": "LoginSteps.i_provide_an_invalid_username()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1004602713,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I login",
+            "match": {
+              "location": "LoginSteps.i_login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 32793669,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "an error message is being displayed \"is-error\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "is-error",
+                  "offset": 37
+                }
+              ],
+              "location": "BaseSteps.an_error_message_is_being_displayed(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 831187288,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseSteps.setUp()"
+            }
+          }
+        ],
+        "line": 43,
+        "name": "Login failure wrong password [standard user]",
+        "description": "",
+        "id": "[qa]-login;login-failure-wrong-password-[standard-user]",
+        "after": [
+          {
+            "result": {
+              "duration": 64084943,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseSteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5665183024,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "I am on the login page",
+            "match": {
+              "location": "LoginSteps.i_am_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 406479215,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "I provide the standard user credentials",
+            "match": {
+              "location": "LoginSteps.i_provide_the_standard_user_credentials()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 222236276,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "I provide an invalid password",
+            "match": {
+              "location": "LoginSteps.i_provide_an_invalid_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 952100824,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "I login",
+            "match": {
+              "location": "LoginSteps.i_login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 24111948,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "an error message is being displayed \"is-error\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "is-error",
+                  "offset": 37
+                }
+              ],
+              "location": "BaseSteps.an_error_message_is_being_displayed(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 844142472,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseSteps.setUp()"
+            }
+          }
+        ],
+        "line": 50,
+        "name": "Login failure wrong password [admin user]",
+        "description": "",
+        "id": "[qa]-login;login-failure-wrong-password-[admin-user]",
+        "after": [
+          {
+            "result": {
+              "duration": 70452093,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseSteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5741986409,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "I am on the login page",
+            "match": {
+              "location": "LoginSteps.i_am_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 427309229,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "I provide the admin user credentials",
+            "match": {
+              "location": "LoginSteps.i_provide_the_admin_user_credentials()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 302255895,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "I provide an invalid password",
+            "match": {
+              "location": "LoginSteps.i_provide_an_invalid_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 973309173,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "I login",
+            "match": {
+              "location": "LoginSteps.i_login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 26432183,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "an error message is being displayed \"is-error\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "is-error",
+                  "offset": 37
+                }
+              ],
+              "location": "BaseSteps.an_error_message_is_being_displayed(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 963788467,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseSteps.setUp()"
+            }
+          }
+        ],
+        "line": 57,
+        "name": "Login failure wrong username wrong password",
+        "description": "",
+        "id": "[qa]-login;login-failure-wrong-username-wrong-password",
+        "after": [
+          {
+            "result": {
+              "duration": 64156307,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseSteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5788451155,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "I am on the login page",
+            "match": {
+              "location": "LoginSteps.i_am_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 428996261,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "I provide an invalid username",
+            "match": {
+              "location": "LoginSteps.i_provide_an_invalid_username()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 274415712,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "I provide an invalid password",
+            "match": {
+              "location": "LoginSteps.i_provide_an_invalid_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 997592166,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "I login",
+            "match": {
+              "location": "LoginSteps.i_login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 24031524,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "an error message is being displayed \"is-error\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "is-error",
+                  "offset": 37
+                }
+              ],
+              "location": "BaseSteps.an_error_message_is_being_displayed(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "[QA] Login",
+    "description": "Als B4U-Nutzer möchte ich mich in meinen B4U-Account einloggen können, damit ich mit meinem B4U-Account arbeiten kann",
+    "id": "[qa]-login",
+    "keyword": "Feature",
+    "uri": "login.feature",
+    "tags": [
+      {
+        "line": 2,
+        "name": "@focus"
+      }
+    ]
+  }
+]

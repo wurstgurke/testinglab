@@ -12,9 +12,8 @@ pipeline {
             }
             post {
                 always {
-                    cucumber '**/*.json'
+                    publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: false, reportDir: '/cucumber', reportFiles: 'index.html', reportName: 'Test Results', reportTitles: ''])
                 }
-            }
         }
     }
 }

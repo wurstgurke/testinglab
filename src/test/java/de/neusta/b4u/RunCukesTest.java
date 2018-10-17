@@ -27,6 +27,6 @@ import org.openqa.selenium.WebDriver;
         strict = false,
         glue = {"de.neusta.b4u"},
         tags = "@focus",
-        format = {"json:target/cucumber.json"})
+        format = {"pretty", "html:target/cucumber", "json:target/cucumber.json"})
 public class RunCukesTest extends Base {
 }
