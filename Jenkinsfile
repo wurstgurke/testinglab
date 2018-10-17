@@ -1,13 +1,11 @@
 pipeline {
-    stages {
-        stage('Start Maven') {
-             agent {
-                docker {
-                    image 'maven:3-alpine'
-                    args '-v /root/.m2:/root/.m2'
-                }
-             }
+    agent {
+        docker {
+            image 'maven:3-alpine'
+            args '-v /root/.m2:/root/.m2'
         }
+    }
+    stages {
         stage('Setting Up Selenium Grid') {
              steps{
                 sh "docker network create ${network}"
