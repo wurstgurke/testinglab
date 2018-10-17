@@ -25,6 +25,7 @@ import org.openqa.selenium.WebDriver;
                 "src/test/resources/profile"
         },
         strict = false,
-        glue = {"de.neusta.b4u"})
+        glue = {"de.neusta.b4u"},
+        tags = "@focus")
 public class RunCukesTest extends Base {
 }
