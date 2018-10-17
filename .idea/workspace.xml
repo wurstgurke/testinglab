@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79b56ca1-5c4a-4e66-aa17-cb10d0314831" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/login/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/login/login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/login/logout.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/login/logout.feature" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -57,14 +57,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Jenkinsfile" value="421" />
-          <entry key="feature" value="13" />
+          <entry key="feature" value="15" />
           <entry key="java" value="8" />
           <entry key="properties" value="73" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Cucumber" value="13" />
+          <entry key="Cucumber" value="15" />
           <entry key="JAVA" value="8" />
           <entry key="PLAIN_TEXT" value="421" />
           <entry key="Properties" value="73" />
@@ -73,14 +73,14 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Jenkinsfile" value="1" />
-          <entry key="feature" value="3" />
+          <entry key="feature" value="4" />
           <entry key="java" value="1" />
           <entry key="yml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Cucumber" value="3" />
+          <entry key="Cucumber" value="4" />
           <entry key="JAVA" value="1" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="YAML" value="2" />
@@ -114,16 +114,25 @@
             <entry file="file://$PROJECT_DIR$/src/test/resources/login/logout.feature">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="21">
-                  <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+                  <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/test/resources/login/login.feature">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="294">
+                  <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Jenkinsfile">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="315">
-                  <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+                <state relative-caret-position="420">
+                  <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
                 </state>
               </provider>
             </entry>
@@ -153,9 +162,9 @@
       <list>
         <option value="$PROJECT_DIR$/src/test/java/de/neusta/b4u/RunCukesTest.java" />
         <option value="$PROJECT_DIR$/testProperties.properties" />
-        <option value="$PROJECT_DIR$/src/test/resources/login/login.feature" />
-        <option value="$PROJECT_DIR$/src/test/resources/login/logout.feature" />
         <option value="$PROJECT_DIR$/Jenkinsfile" />
+        <option value="$PROJECT_DIR$/src/test/resources/login/logout.feature" />
+        <option value="$PROJECT_DIR$/src/test/resources/login/login.feature" />
       </list>
     </option>
   </component>
@@ -221,7 +230,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539803170296" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539803208791" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
@@ -271,12 +280,12 @@
       <updated>1526217993634</updated>
       <workItem from="1539778980654" duration="771000" />
       <workItem from="1539786469644" duration="735000" />
-      <workItem from="1539787237163" duration="12459000" />
+      <workItem from="1539787237163" duration="12497000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13965000" />
+    <option name="totallyTimeSpent" value="14003000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1060" extended-state="6" />
@@ -337,13 +346,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/login/login.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testProperties.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
@@ -358,17 +360,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/login/logout.feature">
+    <entry file="file://$PROJECT_DIR$/Jenkinsfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+        <state relative-caret-position="420">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Jenkinsfile">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/login/logout.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+        <state relative-caret-position="21">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/login/login.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
         </state>
       </provider>
     </entry>
