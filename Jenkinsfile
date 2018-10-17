@@ -23,13 +23,5 @@ pipeline {
                 }
             }
         }
-        stage('Tearing Down Selenium Grid') {
-            steps {
-                //remove all the containers and volumes
-                sh "docker rm -vf ${chrome}"
-                sh "docker rm -vf ${seleniumHub}"
-                sh "docker network rm ${network}"
-            }
-        }
     }
 }
