@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="52" failures="2" name="de.neusta.b4u.RunCukesTest" time="0.651" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="X:\java\jdk8\jre\bin"/>
+    <property name="java.vm.version" value="25.181-b13"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="DE"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Projekte\testinglab"/>
+    <property name="java.runtime.version" value="1.8.0_181-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="X:\java\jdk8\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\asberr\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="x:\tools\apache-maven-3.2.5\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="X:\java\jdk8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\cmdr\bin;C:\Program Files\cmdr\vendor\conemu-maximus5\ConEmu\Scripts;C:\Program Files\cmdr\vendor\conemu-maximus5;C:\Program Files\cmdr\vendor\conemu-maximus5\ConEmu;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Docker\Docker\Resources\bin;C:\app\asberr\product\11.1.0\client_1;C:\app\asberr\product\11.1.0\client_1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Enterprise Vault\EVClient\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\GitExtensions\;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\PuTTY\;%NVM_HOME%;%NVM_SYMLINK%;C:\Users\asberr\AppData\Local\Microsoft\WindowsApps;C:\Program Files\kdiff3;X:\Tools\groovy-2.4.4\bin;C:\Users\asberr\AppData\Roaming\npm;X:\Tools\CLI-Tools\;x:\tools\apache-maven-3.2.5\bin;C:\Users\asberr\AppData\Local\Yarn\bin;C:\texlive\2018\bin\win32;C:\Users\asberr\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\Git\mingw64;C:\Program Files\Git\usr\bin;C:\Program Files\cmdr;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\asberr"/>
+    <property name="user.timezone" value="Europe/Berlin"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="asberr"/>
+    <property name="java.class.path" value="x:\tools\apache-maven-3.2.5\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="X:\java\jdk8\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="de"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_181"/>
+    <property name="java.ext.dirs" value="X:\java\jdk8\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="X:\java\jdk8\jre\lib\resources.jar;X:\java\jdk8\jre\lib\rt.jar;X:\java\jdk8\jre\lib\sunrsasign.jar;X:\java\jdk8\jre\lib\jsse.jar;X:\java\jdk8\jre\lib\jce.jar;X:\java\jdk8\jre\lib\charsets.jar;X:\java\jdk8\jre\lib\jfr.jar;X:\java\jdk8\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp850"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="x:\tools\apache-maven-3.2.5"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp850"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="| Username | loginView.userName |" name="Given I am on the login page" time="0.001"/>
+  <testcase classname="| Username | loginView.userName |" name="When I look for the element \&quot;loginView.userName\&quot;" time="0"/>
+  <testcase classname="| Username | loginView.userName |" name="Then the element looked for is being displayed" time="0"/>
+  <testcase classname="| Username | loginView.userName |" name="| Username | loginView.userName |" time="0.083"/>
+  <testcase classname="| Password | loginView.password |" name="Given I am on the login page" time="0"/>
+  <testcase classname="| Password | loginView.password |" name="When I look for the element \&quot;loginView.password\&quot;" time="0"/>
+  <testcase classname="| Password | loginView.password |" name="Then the element looked for is being displayed" time="0"/>
+  <testcase classname="| Password | loginView.password |" name="| Password | loginView.password |" time="0.068"/>
+  <testcase classname="| Anmelden | loginView.login |" name="Given I am on the login page" time="0"/>
+  <testcase classname="| Anmelden | loginView.login |" name="When I look for the element \&quot;loginView.login\&quot;" time="0"/>
+  <testcase classname="| Anmelden | loginView.login |" name="Then the element looked for is being displayed" time="0"/>
+  <testcase classname="| Anmelden | loginView.login |" name="| Anmelden | loginView.login |" time="0.088"/>
+  <testcase classname="Scenario: Login success [standard user]" name="Given I am on the login page" time="0"/>
+  <testcase classname="Scenario: Login success [standard user]" name="And I provide the standard user credentials" time="0"/>
+  <testcase classname="Scenario: Login success [standard user]" name="When I login" time="0"/>
+  <testcase classname="Scenario: Login success [standard user]" name="Then the account page is being displayed" time="0"/>
+  <testcase classname="Scenario: Login success [standard user]" name="Scenario: Login success [standard user]" time="0.065"/>
+  <testcase classname="Scenario: Login success [admin user]" name="Given I am on the login page" time="0"/>
+  <testcase classname="Scenario: Login success [admin user]" name="And I provide the admin user credentials" time="0"/>
+  <testcase classname="Scenario: Login success [admin user]" name="When I login" time="0"/>
+  <testcase classname="Scenario: Login success [admin user]" name="Then the account page is being displayed" time="0.003">
+    <failure message="Account page is displayed" type="java.lang.AssertionError">java.lang.AssertionError: Account page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.login.LoginSteps.the_account_page_is_being_displayed(LoginSteps.java:97)
+	at ✽.Then the account page is being displayed(login.feature:27)
+</failure>
+  </testcase>
+  <testcase classname="Scenario: Login success [admin user]" name="Scenario: Login success [admin user]" time="0.004">
+    <failure message="Account page is displayed" type="java.lang.AssertionError">java.lang.AssertionError: Account page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.login.LoginSteps.the_account_page_is_being_displayed(LoginSteps.java:97)
+	at ✽.Then the account page is being displayed(login.feature:27)
+</failure>
+  </testcase>
+  <testcase classname="Scenario: Login failure wrong username [standard user]" name="Given I am on the login page" time="0"/>
+  <testcase classname="Scenario: Login failure wrong username [standard user]" name="And I provide the standard user credentials" time="0"/>
+  <testcase classname="Scenario: Login failure wrong username [standard user]" name="And I provide an invalid username" time="0"/>
+  <testcase classname="Scenario: Login failure wrong username [standard user]" name="When I login" time="0"/>
+  <testcase classname="Scenario: Login failure wrong username [standard user]" name="Then an error message is being displayed \&quot;is-error\&quot;" time="0"/>
+  <testcase classname="Scenario: Login failure wrong username [standard user]" name="Scenario: Login failure wrong username [standard user]" time="0.066"/>
+  <testcase classname="Scenario: Login failure wrong username [admin user]" name="Given I am on the login page" time="0"/>
+  <testcase classname="Scenario: Login failure wrong username [admin user]" name="And I provide the admin user credentials" time="0"/>
+  <testcase classname="Scenario: Login failure wrong username [admin user]" name="And I provide an invalid username" time="0"/>
+  <testcase classname="Scenario: Login failure wrong username [admin user]" name="When I login" time="0"/>
+  <testcase classname="Scenario: Login failure wrong username [admin user]" name="Then an error message is being displayed \&quot;is-error\&quot;" time="0"/>
+  <testcase classname="Scenario: Login failure wrong username [admin user]" name="Scenario: Login failure wrong username [admin user]" time="0.07"/>
+  <testcase classname="Scenario: Login failure wrong password [standard user]" name="Given I am on the login page" time="0"/>
+  <testcase classname="Scenario: Login failure wrong password [standard user]" name="And I provide the standard user credentials" time="0.001"/>
+  <testcase classname="Scenario: Login failure wrong password [standard user]" name="And I provide an invalid password" time="0"/>
+  <testcase classname="Scenario: Login failure wrong password [standard user]" name="When I login" time="0"/>
+  <testcase classname="Scenario: Login failure wrong password [standard user]" name="Then an error message is being displayed \&quot;is-error\&quot;" time="0"/>
+  <testcase classname="Scenario: Login failure wrong password [standard user]" name="Scenario: Login failure wrong password [standard user]" time="0.068"/>
+  <testcase classname="Scenario: Login failure wrong password [admin user]" name="Given I am on the login page" time="0"/>
+  <testcase classname="Scenario: Login failure wrong password [admin user]" name="And I provide the admin user credentials" time="0"/>
+  <testcase classname="Scenario: Login failure wrong password [admin user]" name="And I provide an invalid password" time="0"/>
+  <testcase classname="Scenario: Login failure wrong password [admin user]" name="When I login" time="0"/>
+  <testcase classname="Scenario: Login failure wrong password [admin user]" name="Then an error message is being displayed \&quot;is-error\&quot;" time="0"/>
+  <testcase classname="Scenario: Login failure wrong password [admin user]" name="Scenario: Login failure wrong password [admin user]" time="0.063"/>
+  <testcase classname="Scenario: Login failure wrong username wrong password" name="Given I am on the login page" time="0"/>
+  <testcase classname="Scenario: Login failure wrong username wrong password" name="And I provide an invalid username" time="0"/>
+  <testcase classname="Scenario: Login failure wrong username wrong password" name="And I provide an invalid password" time="0"/>
+  <testcase classname="Scenario: Login failure wrong username wrong password" name="When I login" time="0"/>
+  <testcase classname="Scenario: Login failure wrong username wrong password" name="Then an error message is being displayed \&quot;is-error\&quot;" time="0"/>
+  <testcase classname="Scenario: Login failure wrong username wrong password" name="Scenario: Login failure wrong username wrong password" time="0.071"/>
+</testsuite>
