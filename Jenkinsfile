@@ -12,7 +12,7 @@ pipeline {
             }
             post {
                 always {
-                    publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: false, reportDir: '/cucumber', reportFiles: 'index.html', reportName: 'Test Results', reportTitles: ''])
+                    publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: false, reportDir: 'cucumber', reportFiles: 'index.html', reportName: 'Test Results', reportTitles: ''])
                 }
             }
         }
