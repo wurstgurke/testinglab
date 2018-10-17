@@ -9,7 +9,11 @@ pipeline {
         stage('Test') {
             steps {
                 sh 'mvn test'
-                publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: false, reportDir: '/cucumber', reportFiles: 'index.html', reportName: 'Test Results', reportTitles: ''])
+            }
+            post {
+                always {
+                    publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: false, reportDir: '/cucumber', reportFiles: 'index.html', reportName: 'Test Results', reportTitles: ''])
+                }
             }
         }
     }
