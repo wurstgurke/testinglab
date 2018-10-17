@@ -1,5 +1,5 @@
 # Acceptance criteria see https://portal.neusta.de/jira/browse/BFY-1042
-
+@focus
 Feature: [QA] Logout
   Als B4U-Nutzer möchte ich mich aus meinem B4U-Account wieder ausloggen können,
   damit mein Account geschützt ist, wenn ich nicht mehr damit arbeite
