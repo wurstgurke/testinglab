@@ -14,15 +14,5 @@ pipeline {
                 sh "docker run -d -e HUB_PORT_4444_TCP_ADDR=${seleniumHub} -e HUB_PORT_4444_TCP_PORT=4444 --network ${network} --name ${firefox} selenium/node-firefox"
              }
           }
-        stage('Test') {
-             steps{
-                sh "mvn test"
-             }
-             post {
-                always {
-                    junit 'target/surefire-reports/*.xml'
-                }
-             }
-        }
     }
 }
