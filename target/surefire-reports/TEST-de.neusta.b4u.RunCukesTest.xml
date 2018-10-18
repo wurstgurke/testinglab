@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="15" failures="0" name="de.neusta.b4u.RunCukesTest" time="35.756" errors="6" skipped="9">
+<testsuite tests="15" failures="0" name="de.neusta.b4u.RunCukesTest" time="35.277" errors="6" skipped="9">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="X:\java\jdk8\jre\bin"/>
@@ -43,7 +43,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="X:\java\jdk8\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="de"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -62,7 +62,7 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="| Username | topBannerView.logout |" name="| Username | topBannerView.logout |" time="3.074">
+  <testcase classname="| Username | topBannerView.logout |" name="| Username | topBannerView.logout |" time="3.001">
     <error message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
 Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
 System info: host: &apos;NUEL-GDL8QF2&apos;, ip: &apos;10.0.75.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
@@ -182,20 +182,20 @@ Feature: [QA] Logout
 
     Examples: 
 </system-out>
-    <system-err>Okt 18, 2018 7:42:29 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+    <system-err>Okt 18, 2018 8:02:09 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFORMATION: Attempting bi-dialect session, assuming Postel&apos;s Law holds true on the remote end
 </system-err>
   </testcase>
-  <testcase classname="| Username | topBannerView.logout |" name="Given I have logged into my account as standard user" time="3.179">
+  <testcase classname="| Username | topBannerView.logout |" name="Given I have logged into my account as standard user" time="3.06">
     <skipped/>
   </testcase>
-  <testcase classname="| Username | topBannerView.logout |" name="When I look for the element \&quot;topBannerView.logout\&quot;" time="3.179">
+  <testcase classname="| Username | topBannerView.logout |" name="When I look for the element \&quot;topBannerView.logout\&quot;" time="3.06">
     <skipped/>
   </testcase>
-  <testcase classname="| Username | topBannerView.logout |" name="Then the element looked for is being displayed" time="3.179">
+  <testcase classname="| Username | topBannerView.logout |" name="Then the element looked for is being displayed" time="3.06">
     <skipped/>
   </testcase>
-  <testcase classname="| Username | topBannerView.logout |" name="| Username | topBannerView.logout |" time="3.179">
+  <testcase classname="| Username | topBannerView.logout |" name="| Username | topBannerView.logout |" time="3.061">
     <error type="java.lang.NullPointerException">java.lang.NullPointerException
 	at de.neusta.b4u.Context.getDriver(Context.java:21)
 	at de.neusta.b4u.steps.BaseSteps.tearDown(BaseSteps.java:38)
@@ -262,7 +262,7 @@ INFORMATION: Attempting bi-dialect session, assuming Postel&apos;s Law holds tru
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:74)
 </error>
   </testcase>
-  <testcase classname="Scenario: logout success [standard user]" name="Scenario: logout success [standard user]" time="1.901">
+  <testcase classname="Scenario: logout success [standard user]" name="Scenario: logout success [standard user]" time="1.959">
     <error message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
 Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
 System info: host: &apos;NUEL-GDL8QF2&apos;, ip: &apos;10.0.75.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
@@ -482,20 +482,20 @@ Caused by: java.net.ConnectException: Connection refused: connect
       	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:74)
       &amp;#27;[0m
 </system-out>
-    <system-err>Okt 18, 2018 7:42:31 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+    <system-err>Okt 18, 2018 8:02:11 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFORMATION: Attempting bi-dialect session, assuming Postel&apos;s Law holds true on the remote end
 </system-err>
   </testcase>
-  <testcase classname="Scenario: logout success [standard user]" name="Given I have logged into my account as standard user" time="1.941">
+  <testcase classname="Scenario: logout success [standard user]" name="Given I have logged into my account as standard user" time="2.018">
     <skipped/>
   </testcase>
-  <testcase classname="Scenario: logout success [standard user]" name="When I logout" time="1.941">
+  <testcase classname="Scenario: logout success [standard user]" name="When I logout" time="2.018">
     <skipped/>
   </testcase>
-  <testcase classname="Scenario: logout success [standard user]" name="Then the login page is being displayed" time="1.941">
+  <testcase classname="Scenario: logout success [standard user]" name="Then the login page is being displayed" time="2.018">
     <skipped/>
   </testcase>
-  <testcase classname="Scenario: logout success [standard user]" name="Scenario: logout success [standard user]" time="1.941">
+  <testcase classname="Scenario: logout success [standard user]" name="Scenario: logout success [standard user]" time="2.018">
     <error type="java.lang.NullPointerException">java.lang.NullPointerException
 	at de.neusta.b4u.Context.getDriver(Context.java:21)
 	at de.neusta.b4u.steps.BaseSteps.tearDown(BaseSteps.java:38)
@@ -544,7 +544,7 @@ INFORMATION: Attempting bi-dialect session, assuming Postel&apos;s Law holds tru
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:74)
 </error>
   </testcase>
-  <testcase classname="Scenario: logout success [admin user]" name="Scenario: logout success [admin user]" time="1.985">
+  <testcase classname="Scenario: logout success [admin user]" name="Scenario: logout success [admin user]" time="1.955">
     <error message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
 Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
 System info: host: &apos;NUEL-GDL8QF2&apos;, ip: &apos;10.0.75.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
@@ -728,20 +728,20 @@ Caused by: java.net.ConnectException: Connection refused: connect
       	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:74)
       &amp;#27;[0m
 </system-out>
-    <system-err>Okt 18, 2018 7:42:33 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+    <system-err>Okt 18, 2018 8:02:13 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFORMATION: Attempting bi-dialect session, assuming Postel&apos;s Law holds true on the remote end
 </system-err>
   </testcase>
-  <testcase classname="Scenario: logout success [admin user]" name="Given I have logged into my account as admin user" time="2.079">
+  <testcase classname="Scenario: logout success [admin user]" name="Given I have logged into my account as admin user" time="2.012">
     <skipped/>
   </testcase>
-  <testcase classname="Scenario: logout success [admin user]" name="When I logout" time="2.079">
+  <testcase classname="Scenario: logout success [admin user]" name="When I logout" time="2.012">
     <skipped/>
   </testcase>
-  <testcase classname="Scenario: logout success [admin user]" name="Then the login page is being displayed" time="2.079">
+  <testcase classname="Scenario: logout success [admin user]" name="Then the login page is being displayed" time="2.012">
     <skipped/>
   </testcase>
-  <testcase classname="Scenario: logout success [admin user]" name="Scenario: logout success [admin user]" time="2.079">
+  <testcase classname="Scenario: logout success [admin user]" name="Scenario: logout success [admin user]" time="2.013">
     <error type="java.lang.NullPointerException">java.lang.NullPointerException
 	at de.neusta.b4u.Context.getDriver(Context.java:21)
 	at de.neusta.b4u.steps.BaseSteps.tearDown(BaseSteps.java:38)
