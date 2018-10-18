@@ -6,10 +6,14 @@ pipeline {
         }
     }
     stages {
-        stage('Test') {
+        stage('Setup') {
              steps{
                 cd docker
                 sh "docker-compose up"
+             }
+        }
+        stage('Test') {
+             steps{
                 sh "mvn test"
              }
              post {
