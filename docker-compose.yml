@@ -3,6 +3,7 @@ hub:
 #        - http_proxy=http://http-proxy.intern.neusta.de:3128
 #        - https_proxy=http://https-proxy.intern.neusta.de:3128
     image: selenium/hub
+    container_name: selenium-hub
     ports:
         - "5555:4444"
 
@@ -10,14 +11,18 @@ chrome:
 #    volumes:
 #        - "/dev/shm:/dev/shm"
     shm_size: 1g
-#    environment:
+    environment:
 #        - http_proxy=http://http-proxy.intern.neusta.de:3128
 #        - https_proxy=http://https-proxy.intern.neusta.de:3128
+    - HUB_HOST=selenium-hub
+    - HUB_PORT=4444
     image: selenium/node-chrome-debug
     links:
-        - hub
+    - hub
     ports:
-        - "5900:5900"
+    - "5900:5900"
+    depends_on:
+    - hub
 
 #firefox:
 #    volumes:
