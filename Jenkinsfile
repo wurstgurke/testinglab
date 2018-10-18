@@ -8,7 +8,8 @@ pipeline {
     stages {
         stage('Test') {
              steps{
-                docker-compose up
+                cd docker
+                sh "docker-compose up"
                 sh "mvn test"
              }
              post {
