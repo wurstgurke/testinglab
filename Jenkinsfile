@@ -1,6 +1,4 @@
 pipeline {
-    
-    agent { label 'docker' }
 
     stages {
         stage('Setting Up Selenium Grid') {
