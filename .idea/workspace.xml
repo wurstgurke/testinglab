@@ -131,7 +131,7 @@
             <entry file="file://$PROJECT_DIR$/Jenkinsfile">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="210">
-                  <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+                  <caret line="10" column="174" selection-start-line="10" selection-start-column="174" selection-end-line="10" selection-end-column="174" />
                 </state>
               </provider>
             </entry>
@@ -229,7 +229,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539869686681" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539870745958" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
@@ -279,12 +279,12 @@
       <updated>1526217993634</updated>
       <workItem from="1539778980654" duration="771000" />
       <workItem from="1539786469644" duration="735000" />
-      <workItem from="1539787237163" duration="24053000" />
+      <workItem from="1539787237163" duration="24671000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25559000" />
+    <option name="totallyTimeSpent" value="26177000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1060" extended-state="6" />
@@ -397,7 +397,7 @@
     <entry file="file://$PROJECT_DIR$/Jenkinsfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+          <caret line="10" column="174" selection-start-line="10" selection-start-column="174" selection-end-line="10" selection-end-column="174" />
         </state>
       </provider>
     </entry>
