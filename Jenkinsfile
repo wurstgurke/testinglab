@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Setup') {
              steps{
-                sh "./docker/docker-compose up"
+                sh 'docker -version'
              }
         }
         stage('Test') {
