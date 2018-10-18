@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Setup') {
              steps{
-                sh 'docker -version'
+                'docker version'
              }
         }
         stage('Test') {
