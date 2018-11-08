@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="79b56ca1-5c4a-4e66-aa17-cb10d0314831" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maven-data/.m2/settings.xml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -139,7 +138,7 @@
             <entry file="file://$PROJECT_DIR$/Jenkinsfile">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="68">
-                  <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+                  <caret line="4" column="85" selection-start-line="4" selection-start-column="85" selection-end-line="4" selection-end-column="85" />
                 </state>
               </provider>
             </entry>
@@ -331,12 +330,12 @@
       <workItem from="1539891511108" duration="1549000" />
       <workItem from="1539942663711" duration="810000" />
       <workItem from="1540464874299" duration="97000" />
-      <workItem from="1541672817929" duration="4837000" />
+      <workItem from="1541672817929" duration="5040000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43559000" />
+    <option name="totallyTimeSpent" value="43762000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -504,7 +503,7 @@
     <entry file="file://$PROJECT_DIR$/Jenkinsfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+          <caret line="4" column="85" selection-start-line="4" selection-start-column="85" selection-end-line="4" selection-end-column="85" />
         </state>
       </provider>
     </entry>
