@@ -1,8 +1,12 @@
 pipeline {
     agent {
+        environment {
+            DISABLE_AUTH = 'true'
+            DB_ENGINE    = 'sqlite'
+        }
         docker {
             image 'maven:3-alpine'
-            args '-v /root/.m2:/root/.m2'
+            args '-v /root/.m2:/root/.m2 -e PROXY_HOST=http-proxy.intern.neusta.de -e PROXY_PORT=3128'
         }
     }
     stages {
