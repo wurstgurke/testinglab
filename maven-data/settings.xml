@@ -1,18 +1,31 @@
-<settings>
-  <localRepository>C:/Users/bea/.m2/repository</localRepository>
-  <proxies>
-   <proxy>
-      <active>true</active>
-      <protocol>http</protocol>
-      <host>http-proxy.intern.neusta.de</host>
-      <port>3128</port>      
-      <nonProxyHosts>*.intern.neusta.de</nonProxyHosts>
-    </proxy>
-  </proxies>
-  
-  <server>
-	<id>TomcatDocker</id>
-	<username>b4u</username>
-	<password>b4u</password>
-  </server>
+   <settings>
+  <activeProfiles>
+    <!--make the profile active all the time -->
+    <activeProfile>securecentral</activeProfile>
+  </activeProfiles>
+  <profiles>
+    <profile>
+      <id>securecentral</id>
+      <!--Override the repository (and pluginRepository) "central" from the
+         Maven Super POM -->
+      <repositories>
+        <repository>
+          <id>central</id>
+          <url>http://repo1.maven.org/maven2</url>
+          <releases>
+            <enabled>true</enabled>
+          </releases>
+        </repository>
+      </repositories>
+      <pluginRepositories>
+        <pluginRepository>
+          <id>central</id>
+          <url>http://repo1.maven.org/maven2</url>
+          <releases>
+            <enabled>true</enabled>
+          </releases>
+        </pluginRepository>
+      </pluginRepositories>
+    </profile>
+  </profiles>
 </settings>
