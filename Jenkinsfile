@@ -7,10 +7,6 @@ pipeline {
     }
     stages {
         stage('Test') {
-             environment {
-                PROXY_HOST='http://http-proxy.intern.neusta.de'
-                PROXY_PORT='3128'
-             }
              steps{
                 sh "mvn test"
              }
@@ -18,6 +14,14 @@ pipeline {
                 always {
                     junit 'target/surefire-reports/*.xml'
                 }
+                failure {
+                    emailext(
+                        to: 'andreas.berrou@hec.de',
+                        subject: 'PROD DOWN: Monitoring job failed',
+                        body: '''
+                    )
+                }
+
              }
         }
     }
