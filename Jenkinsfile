@@ -15,11 +15,7 @@ pipeline {
                     junit 'target/surefire-reports/*.xml'
                 }
                 failure {
-                    emailext(
-                        to: 'andreas.berrou@hec.de',
-                        subject: 'PROD DOWN: Monitoring job failed',
-                        body: '''
-                    )
+                    emailext attachmentsPattern: '**/report.html', body: 'Find attachments', subject: 'test', to: 'andreas.berrou@hec.de'
                 }
 
              }
