@@ -60,7 +60,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Jenkinsfile" value="698" />
+          <entry key="Jenkinsfile" value="708" />
           <entry key="feature" value="32" />
           <entry key="java" value="50" />
           <entry key="properties" value="124" />
@@ -71,7 +71,7 @@
         <counts>
           <entry key="Cucumber" value="32" />
           <entry key="JAVA" value="50" />
-          <entry key="Jenkins file" value="58" />
+          <entry key="Jenkins file" value="68" />
           <entry key="PLAIN_TEXT" value="640" />
           <entry key="Properties" value="124" />
           <entry key="YAML" value="62" />
@@ -144,8 +144,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Jenkinsfile">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="84">
-                  <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+                <state relative-caret-position="210">
+                  <caret line="10" column="51" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
                 </state>
               </provider>
             </entry>
@@ -297,12 +297,12 @@
       <workItem from="1541413390275" duration="1275000" />
       <workItem from="1541668931810" duration="348000" />
       <workItem from="1541670821999" duration="3104000" />
-      <workItem from="1541770052075" duration="2523000" />
+      <workItem from="1541770052075" duration="2898000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48485000" />
+    <option name="totallyTimeSpent" value="48860000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -424,8 +424,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Jenkinsfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+        <state relative-caret-position="210">
+          <caret line="10" column="51" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
         </state>
       </provider>
     </entry>
