@@ -15,9 +15,16 @@ pipeline {
                     junit 'target/surefire-reports/*.xml'
                 }
                 failure {
-                    emailext attachmentsPattern: '**/report.html', body: 'Find attachments', subject: 'test', to: 'andreas.berrou@hec.de'
+                    emailext(
+                        to: 'andreas.berrou@hec.de',
+                        subject: 'test',
+                        body: '''
+                        <p>Test</p>
+                        <p>Test</p>
+                        '''
+                        )
+                    }
                 }
-
              }
         }
     }
