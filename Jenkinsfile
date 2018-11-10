@@ -14,7 +14,7 @@ pipeline {
                 always {
                     junit 'target/surefire-reports/*.xml'
                     emailext(
-                        to: 'andreas.berrou@hec.de',
+                        to: 'andreas@berrou.de',
                         subject: 'test',
                         body: 'Hello World!'
                     )
