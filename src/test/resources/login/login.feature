@@ -1,4 +1,5 @@
 # Akzeptanzkriterien siehe https://portal.neusta.de/jira/browse/BFY-1040
+@focus
 Feature: [QA] Login
   Als B4U-Nutzer möchte ich mich in meinen B4U-Account einloggen können, damit ich mit meinem B4U-Account arbeiten kann
 
