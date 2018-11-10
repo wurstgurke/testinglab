@@ -18,12 +18,10 @@ pipeline {
                     emailext(
                         to: 'andreas.berrou@hec.de',
                         subject: 'test',
-                        body: '''
+                        body: 'Hello World!'
                         <p>Test</p>
                         <p>Test</p>
-                        '''
-                        )
-                    }
+                    )
                 }
              }
         }
