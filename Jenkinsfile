@@ -13,8 +13,6 @@ pipeline {
              post {
                 always {
                     junit 'target/surefire-reports/*.xml'
-                                 }
-                failure {
                     emailext(
                         to: 'andreas.berrou@hec.de',
                         subject: 'test',
