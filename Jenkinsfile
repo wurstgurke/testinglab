@@ -19,8 +19,6 @@ pipeline {
                         to: 'andreas.berrou@hec.de',
                         subject: 'test',
                         body: 'Hello World!'
-                        <p>Test</p>
-                        <p>Test</p>
                     )
                 }
              }
