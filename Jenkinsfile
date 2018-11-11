@@ -7,6 +7,9 @@ pipeline {
                     image 'maven:3-alpine'
                     args '-v //c/temp:/root/.m2'
                 }
+                tools {
+                    jdk 'JDK1.8'
+                }
             }
              steps{
                 sh "mvn test"
