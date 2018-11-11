@@ -16,7 +16,11 @@ pipeline {
                     emailext(
                         to: 'andreas@berrou.de',
                         subject: 'test',
-                        body: 'Hello World!'
+                        body: '''
+                        <p>Monitoring job failed</p>
+                        <p>Check reports and console output at &QUOT;<a href='www.google.de'>test</a>&QUOT;</p>
+
+                        '''
                     )
                 }
              }
