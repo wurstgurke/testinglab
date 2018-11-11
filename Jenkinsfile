@@ -13,23 +13,23 @@ pipeline {
              post {
                 always {
                     junit 'target/surefire-reports/*.xml'
-                    publishHTML(target: [
-                           allowMissing: true,
-                           alwaysLinkToLastBuild: false,
-                           keepAll: true,
-                           reportDir: './target/cucumber',
-                           reportFiles: 'index.html',
-                           reportName: 'Testresults'
-                      ])
+                    publishHTML(
+                       target: [
+                       allowMissing: true,
+                       alwaysLinkToLastBuild: false,
+                       keepAll: true,
+                       reportDir: './target/cucumber',
+                       reportFiles: 'index.html',
+                       reportName: 'Testresults'
+                    ])
                     emailext(
                         to: 'andreas@berrou.de',
                         subject: 'test',
                         from: 'andreas@berrou.de',
                         body: '''
-                        <p>Monitoring job failed</p>
-                        <p>Check reports and console output at &QUOT;<a href='www.google.de'>test</a>&QUOT;</p>
-
-                        ''',
+                              <p>There are Tests failing!</p>
+                              <p>Check reports and console output at &QUOT;<a href='$BUILD_URL'>$JOB_NAME [$BUILD_NUMBER]</a>&QUOT;</p>
+                              ''',
                         attachmentsPattern: './target/cucumber/index.html'
                     )
                 }
