@@ -30,7 +30,7 @@ pipeline {
                               <p>There are Tests failing!</p>
                               <p>Check reports and console output at &QUOT;<a href='$BUILD_URL'>$JOB_NAME [$BUILD_NUMBER]</a>&QUOT;</p>
                               ''',
-                        attachmentsPattern: './target/cucumber/index.html'
+                        attachmentsPattern: '/var/jenkins_home/jobs/B4U Tests/builds/$BUILD_NUMBER/htmlreports/Testresults/index.html'
                     )
                 }
              }
