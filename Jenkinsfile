@@ -1,13 +1,7 @@
 pipeline {
     agent none
     stages {
-
         stage('Run with Hub') {
-            agent docker
-             tools {
-                maven 'Maven 3.3.9'
-                jdk 'jdk8'
-            }
 
             post {
                 always {
@@ -22,7 +16,11 @@ pipeline {
                     }
                 }
 
-                stage('Start Hub') {
+                stage('Start selenium hub') {
+                agent any
+                    tools {
+                      jdk 'jdk8'
+                    } 
                     steps {
                         sh  '''
                             chmod 775 ./scripts/start-hub.sh
@@ -33,7 +31,11 @@ pipeline {
                     }
                 }
 
-                stage('Chrome') {
+                stage('Run tests with maven') {
+                    agent any
+                      tools {
+                        maven 'Maven 3.3.9'
+                      } 
                     steps {
                          ansiColor('xterm') {
                              sh '''
