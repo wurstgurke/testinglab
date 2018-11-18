@@ -7,7 +7,7 @@ pipeline {
                 label 'linux && docker'
             }
              tools {
-                jdk 'JDK1.8'
+                jdk 'jdk8'
                 maven 'Maven 3.3.9'
             }
 
