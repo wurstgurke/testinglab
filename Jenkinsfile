@@ -3,12 +3,10 @@ pipeline {
     stages {
 
         stage('Run with Hub') {
-            agent {
-                label 'linux && docker'
-            }
+            agent docker
              tools {
-                jdk 'jdk8'
                 maven 'Maven 3.3.9'
+                jdk 'jdk8'
             }
 
             post {
