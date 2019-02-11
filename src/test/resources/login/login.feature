@@ -14,6 +14,8 @@ Feature: [QA] Login
       | Password | loginView.password |
       | Anmelden | loginView.login    |
 
+
+  @focus
   Scenario: Login success [standard user]
     Given I am on the login page
     And I provide the standard user credentials
@@ -26,6 +28,7 @@ Feature: [QA] Login
     When I login
     Then the account page is being displayed
 
+  @focus
   Scenario: Login failure wrong username [standard user]
     Given I am on the login page
     And I provide the standard user credentials

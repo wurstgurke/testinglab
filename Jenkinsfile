@@ -25,26 +25,12 @@ pipeline {
             steps {
                  ansiColor('xterm') {
                      sh '''
-                         cd projects
-                         cd jcs
-                         mvn test
+                         mvn verify -DskipTests
                      '''
                  }
             }
             post {
                always {
-                       cucumber(
-                           buildStatus: 'UNSTABLE',
-                           jsonReportDirectory: '/opt.ram/jenkins/workspace/b4u/Nightly Tests/projects/jcs/target/',
-                           fileIncludePattern: 'cucumber-reports/cucumber.json',
-                           trendsLimit: 10,
-                           classifications: [
-                               [
-                                   'key': 'Browser',
-                                   'value': 'Chrome'
-                               ]
-                           ]
-                       )
                        script {
                            results = readFile "${env.WORKSPACE}/projects/jcs/target/surefire-reports/de.neusta.b4u.RunCukesTest.txt"
                            indexOfStartOfResultSummary = results.indexOf("Tests run: ") // length of this string is 11
