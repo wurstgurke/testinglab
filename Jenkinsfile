@@ -14,10 +14,10 @@ pipeline {
         stage('Start selenium hub') {
             steps {
                 sh  '''
-                    chmod 775 ./projects/jcs/scripts/start-hub.sh
-                    chmod 775 ./projects/jcs/scripts/stop-hub.sh
-                    ./projects/jcs/scripts/stop-hub.sh
-                    ./projects/jcs/scripts/start-hub.sh
+                    chmod 775 ./scripts/start-hub.sh
+                    chmod 775 ./scripts/stop-hub.sh
+                    ./scripts/stop-hub.sh
+                    ./scripts/start-hub.sh
                  '''
             }
         }
@@ -32,7 +32,7 @@ pipeline {
             post {
                always {
                        script {
-                           results = readFile "${env.WORKSPACE}/projects/jcs/target/surefire-reports/de.neusta.b4u.RunCukesTest.txt"
+                           results = readFile "${env.WORKSPACE}/target/surefire-reports/de.neusta.b4u.RunCukesTest.txt"
                            indexOfStartOfResultSummary = results.indexOf("Tests run: ") // length of this string is 11
                            indexOfEndOfResultSummary = results.indexOf(", Time elapsed")
                            if (indexOfStartOfResultSummary == -1 || indexOfEndOfResultSummary == -1) {
@@ -55,7 +55,7 @@ pipeline {
         stage('Stop selenium hub') {
             steps {
                 sh  '''
-                   sh './projects/jcs/scripts/stop-hub.sh'
+                   sh './scripts/stop-hub.sh'
                  '''
             }
         }
