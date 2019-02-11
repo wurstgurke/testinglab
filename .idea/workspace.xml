@@ -70,8 +70,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Jenkinsfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="66" column="84" lean-forward="true" selection-start-line="66" selection-start-column="84" selection-end-line="66" selection-end-column="84" />
+            <state relative-caret-position="102">
+              <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -149,7 +149,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549902678167" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549902860992" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -176,12 +176,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1549885928946</updated>
-      <workItem from="1549885933651" duration="10573000" />
+      <workItem from="1549885933651" duration="10756000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10573000" />
+    <option name="totallyTimeSpent" value="10756000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -275,8 +275,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Jenkinsfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="66" column="84" lean-forward="true" selection-start-line="66" selection-start-column="84" selection-end-line="66" selection-end-column="84" />
+        <state relative-caret-position="102">
+          <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
         </state>
       </provider>
     </entry>

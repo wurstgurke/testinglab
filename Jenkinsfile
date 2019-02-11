@@ -1,13 +1,10 @@
 pipeline {
     agent {
-            node {
-                label 'docker'
+            docker {
+                image 'maven:3-alpine'
+                args '-v $HOME/.m2:/root/.m2'
             }
-        }
-        tools {
-            maven 'maven-3-5.2'
-            jdk 'jdk10u1'
-        }
+    }
     stages {
         stage('Checkout') {
             steps {
