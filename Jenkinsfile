@@ -60,9 +60,9 @@ pipeline {
                            substr = results.substring(indexOfStartOfResultSummary + 11, indexOfEndOfResultSummary) // 11 is length of "Tests run: ", see above
                        }
                        mail(
-                          from: 'b4u-support@neusta-consulting.de',
-                          to: 'b4u-support@neusta-consulting.de',
-                          replyTo: 'b4u-support@neusta-consulting.de',
+                          from: 'andreas@berrou.de',
+                          to: 'andreas@berrou.de',
+                          replyTo: 'andreas@berrou.de',
                           subject: "Testruns Staging: ${substr}",
                           body: "The nighly run of the cucumber tests has finished.")
                }
