@@ -1,5 +1,4 @@
 # Acceptance criteria see https://portal.neusta.de/jira/browse/BFY-1052
-
 Feature: [QA] Adressen: Person Alle
   Als B4U-Nutzer möchte ich unter dem Menüpunkt "Person Alle" eine Suchmaske mit verschiedenen Suchattributen sehen,
   damit ich die gesuchte Person schneller finden kann

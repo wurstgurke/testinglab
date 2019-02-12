@@ -1,5 +1,5 @@
 # Acceptance criteria see https://portal.neusta.de/jira/browse/BFY-1043
-
+@focus
 Feature: [QA] Account: Menüpunkt Adressen
   Als B4U-Nutzer möchte ich unter dem Menüpunkt "Adressen" weitere Menü-Unterpunkte sehen,
   damit ich die verschiedenen Adresssparten genauer auswählen kann

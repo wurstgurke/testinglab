@@ -1,10 +1,7 @@
 pipeline {
-    agent any
-
-      tools{
-      maven 'maven 3'
-      jdk 'java 8'
-      }
+    agent {
+            docker { image 'node:7-alpine' }
+        }
     stages {
         stage('Checkout') {
             steps {

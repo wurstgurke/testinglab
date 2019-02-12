@@ -2,7 +2,7 @@ hub:
 #    environment:
 #        - http_proxy=http://http-proxy.intern.neusta.de:3128
 #        - https_proxy=http://https-proxy.intern.neusta.de:3128
-    image: selenium/hub
+    image: selenium/hub:latest
     ports:
         - "5555:4444"
 
@@ -13,7 +13,7 @@ chrome:
 #    environment:
 #        - http_proxy=http://http-proxy.intern.neusta.de:3128
 #        - https_proxy=http://https-proxy.intern.neusta.de:3128
-    image: selenium/node-chrome-debug
+    image: selenium/node-chrome:latest
     links:
     - hub
     ports:

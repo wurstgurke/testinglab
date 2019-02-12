@@ -1,5 +1,4 @@
 # Acceptance criteria see https://portal.neusta.de/jira/browse/BFY-1053
-
 Feature: [QA] Adressen: Firma Alle
   Als B4U-Nutzer möchte ich unter dem Menüpunkt "Firma Alle" eine Suchmaske mit verschiedenen Suchattributen sehen,
   damit ich die die gesuchte Firma schneller finden kann

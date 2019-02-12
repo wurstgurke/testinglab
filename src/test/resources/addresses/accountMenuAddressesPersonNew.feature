@@ -1,5 +1,4 @@
 # Acceptance criteria see https://portal.neusta.de/jira/browse/BFY-1055
-
 Feature: [QA] Adressen: Person Neu
   Als B4U-Nutzer möchte ich unter dem Menüpunkt "Person Neu" eine Anlagemaske mit Eingabemöglichkeiten
   für verschiedene personenbezogene Merkmale sehen,

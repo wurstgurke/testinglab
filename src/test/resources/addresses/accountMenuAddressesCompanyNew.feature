@@ -1,5 +1,4 @@
 # Acceptance criteria see https://portal.neusta.de/jira/browse/BFY-1056
-
 Feature: [QA] Adressen: Company Neu
   Als B4U-Nutzer möchte ich unter dem Menüpunkt "Firma Neu" eine Anlagemaske Eingabemöglichkeiten für verschiedene
   firmenbezogene Merkmale sehen,
