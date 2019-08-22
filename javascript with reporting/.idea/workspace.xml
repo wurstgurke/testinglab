@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0adcf90e-526c-4bbc-aac4-d834d8ef86bc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__cglib_cglib_nodep_3_2_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__com_codeborne_phantomjsdriver_1_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__com_google_code_gson_gson_2_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__com_google_guava_guava_19_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__commons_io_commons_io_2_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__info_cukes_cucumber_core_1_2_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__info_cukes_cucumber_html_0_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__info_cukes_cucumber_java_1_2_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__info_cukes_cucumber_junit_1_2_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__info_cukes_cucumber_jvm_deps_1_0_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__info_cukes_gherkin_2_12_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__io_netty_netty_3_5_7_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__net_java_dev_jna_jna_4_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__net_java_dev_jna_jna_platform_4_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__net_sourceforge_cssparser_cssparser_0_9_20.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__net_sourceforge_htmlunit_htmlunit_2_23.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__net_sourceforge_htmlunit_htmlunit_core_js_2_23.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__net_sourceforge_htmlunit_neko_htmlunit_2_23.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_apache_commons_commons_exec_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_apache_commons_commons_lang3_3_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_eclipse_jetty_jetty_io_9_2_15_v20160210.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_eclipse_jetty_jetty_util_9_2_15_v20160210.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_api_9_2_15_v20160210.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_client_9_2_15_v20160210.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_common_9_2_15_v20160210.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_3_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_3_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_3_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_3_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_3_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_3_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_seleniumhq_selenium_selenium_opera_driver_3_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_3_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_3_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_3_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_w3c_css_sac_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__xalan_serializer_2_7_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__xalan_xalan_2_7_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__xerces_xercesImpl_2_11_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__xml_apis_xml_apis_1_4_01.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/surefirebooter9142639461653647825.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Jenkinsfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JenkinsfileOLD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../driver/chromedriver_linux" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../driver/chromedriver_mac" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../driver/geckodriver_linux" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../driver/geckodriver_mac" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsc.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maven-data/settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nano.exe.stackdump" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/start-hub.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scripts/stop-hub.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/de/neusta/b4u/Base.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/de/neusta/b4u/binding/BasePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/de/neusta/b4u/binding/addresses/AddressCompanyEmployeeItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/de/neusta/b4u/binding/addresses/AddressCompanyEmployeePopup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/de/neusta/b4u/binding/addresses/AddressCompanyEmployeePopupItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/de/neusta/b4u/binding/addresses/AddressCreateCompanyPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/de/neusta/b4u/binding/addresses/AddressCreatePersonPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/de/neusta/b4u/binding/addresses/AddressEditCompanyPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/de/neusta/b4u/binding/addresses/AddressEditContactItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/de/neusta/b4u/binding/addresses/AddressEditPersonPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/de/neusta/b4u/binding/addresses/AddressEditPersonProjectItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/de/neusta/b4u/binding/addresses/AddressEditPersonProjectPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/de/neusta/b4u/binding/addresses/AddressListCompanyItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/de/neusta/b4u/binding/addresses/AddressListCompanyPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/de/neusta/b4u/binding/addresses/AddressListFreelancerItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/de/neusta/b4u/binding/addresses/AddressListPersonItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/de/neusta/b4u/binding/addresses/AddressListPersonPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/de/neusta/b4u/binding/contact/ContactCreatePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/de/neusta/b4u/binding/contact/ContactEditPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/de/neusta/b4u/binding/contact/ContactHistoryItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/de/neusta/b4u/binding/contact/ContactListItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/de/neusta/b4u/binding/contact/ContactListPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/de/neusta/b4u/binding/contact/ContactTaskItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/de/neusta/b4u/binding/dashboard/DashboardPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/de/neusta/b4u/binding/jobadvertisement/AddApplicantPopup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/de/neusta/b4u/binding/jobadvertisement/AddApplicantPopupItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/de/neusta/b4u/binding/jobadvertisement/JobAdvertisementAddPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/de/neusta/b4u/binding/jobadvertisement/JobAdvertisementApplicantItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/de/neusta/b4u/binding/jobadvertisement/JobAdvertisementEditPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/de/neusta/b4u/binding/jobadvertisement/JobAdvertisementListItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/de/neusta/b4u/binding/jobadvertisement/JobAdvertisementListPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/de/neusta/b4u/binding/login/LoginPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/de/neusta/b4u/binding/tasks/TaskListItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/de/neusta/b4u/binding/tasks/TaskListPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/de/neusta/b4u/binding/tasks/TaskPopupPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/de/neusta/b4u/helper/PropertyHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/de/neusta/b4u/helper/SeleniumHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/de/neusta/b4u/Context.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/de/neusta/b4u/RunCukesAddresses.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/de/neusta/b4u/RunCukesAdministration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/de/neusta/b4u/RunCukesCandidacies.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/de/neusta/b4u/RunCukesContact.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/de/neusta/b4u/RunCukesEmail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/de/neusta/b4u/RunCukesJobAdvertisement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/de/neusta/b4u/RunCukesLogin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/de/neusta/b4u/RunCukesMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/de/neusta/b4u/RunCukesTasks.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/de/neusta/b4u/RunCukesTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/de/neusta/b4u/steps/BaseSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/de/neusta/b4u/steps/addresses/AddressCreateCompanySteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/de/neusta/b4u/steps/addresses/AddressCreatePersonSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/de/neusta/b4u/steps/addresses/AddressEditCompanySteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/de/neusta/b4u/steps/addresses/AddressEditPersonSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/de/neusta/b4u/steps/addresses/AddressListCompanySteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/de/neusta/b4u/steps/addresses/AddressListPersonSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/de/neusta/b4u/steps/addresses/AddressStepHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/de/neusta/b4u/steps/contact/ContactCreateSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/de/neusta/b4u/steps/contact/ContactEditSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/de/neusta/b4u/steps/contact/ContactListSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/de/neusta/b4u/steps/contact/ContactStepHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/de/neusta/b4u/steps/jobadvertisement/JobAdvertisementCreateSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/de/neusta/b4u/steps/jobadvertisement/JobAdvertisementEditSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/de/neusta/b4u/steps/jobadvertisement/JobAdvertisementListSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/de/neusta/b4u/steps/jobadvertisement/JobAdvertisementStepHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/de/neusta/b4u/steps/login/LoginSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/de/neusta/b4u/steps/menu/MenuSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/de/neusta/b4u/steps/tasks/TaskCreateSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/de/neusta/b4u/steps/tasks/TaskEditSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/de/neusta/b4u/steps/tasks/TaskListSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/de/neusta/b4u/steps/tasks/TaskStepHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/resources/addresses/accountMenuAddresses.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/resources/addresses/accountMenuAddressesCompanyAll.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/resources/addresses/accountMenuAddressesCompanyEdit.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/resources/addresses/accountMenuAddressesCompanyNew.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/resources/addresses/accountMenuAddressesPersonAll.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/resources/addresses/accountMenuAddressesPersonEdit.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/resources/addresses/accountMenuAddressesPersonNew.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/resources/administration/accountMenuAdministration.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/resources/candidacies/accountMenuCandidacies.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/resources/candidacies/accountMenuCandidaciesAll.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/resources/contact/accountMenuContact.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/resources/contact/accountMenuContactAll.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/resources/contact/accountMenuContactEdit.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/resources/contact/accountMenuContactNew.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/resources/email/accountMenuEmail.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/resources/jobadvertisement/accountMenuJobAdvertisement.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/resources/login/login.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/resources/login/logout.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/resources/menu/accountMenu.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/resources/profile/accountProfilePersonalData.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/resources/tasks/accountMenuTasks.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/de/neusta/b4u/Base.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/de/neusta/b4u/binding/BasePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/de/neusta/b4u/binding/addresses/AddressCompanyEmployeeItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/de/neusta/b4u/binding/addresses/AddressCompanyEmployeePopup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/de/neusta/b4u/binding/addresses/AddressCompanyEmployeePopupItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/de/neusta/b4u/binding/addresses/AddressCreateCompanyPage$ContactType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/de/neusta/b4u/binding/addresses/AddressCreateCompanyPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/de/neusta/b4u/binding/addresses/AddressCreatePersonPage$ContactType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/de/neusta/b4u/binding/addresses/AddressCreatePersonPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/de/neusta/b4u/binding/addresses/AddressEditCompanyPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/de/neusta/b4u/binding/addresses/AddressEditContactItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/de/neusta/b4u/binding/addresses/AddressEditPersonPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/de/neusta/b4u/binding/addresses/AddressEditPersonProjectItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/de/neusta/b4u/binding/addresses/AddressEditPersonProjectPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/de/neusta/b4u/binding/addresses/AddressListCompanyItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/de/neusta/b4u/binding/addresses/AddressListCompanyPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/de/neusta/b4u/binding/addresses/AddressListFreelancerItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/de/neusta/b4u/binding/addresses/AddressListPersonItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/de/neusta/b4u/binding/addresses/AddressListPersonPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/de/neusta/b4u/binding/contact/ContactCreatePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/de/neusta/b4u/binding/contact/ContactEditPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/de/neusta/b4u/binding/contact/ContactHistoryItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/de/neusta/b4u/binding/contact/ContactListItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/de/neusta/b4u/binding/contact/ContactListPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/de/neusta/b4u/binding/contact/ContactTaskItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/de/neusta/b4u/binding/dashboard/DashboardPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/de/neusta/b4u/binding/jobadvertisement/AddApplicantPopup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/de/neusta/b4u/binding/jobadvertisement/AddApplicantPopupItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/de/neusta/b4u/binding/jobadvertisement/JobAdvertisementAddPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/de/neusta/b4u/binding/jobadvertisement/JobAdvertisementApplicantItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/de/neusta/b4u/binding/jobadvertisement/JobAdvertisementEditPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/de/neusta/b4u/binding/jobadvertisement/JobAdvertisementListItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/de/neusta/b4u/binding/jobadvertisement/JobAdvertisementListPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/de/neusta/b4u/binding/login/LoginPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/de/neusta/b4u/binding/tasks/TaskListItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/de/neusta/b4u/binding/tasks/TaskListPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/de/neusta/b4u/binding/tasks/TaskPopupPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/de/neusta/b4u/helper/PropertyHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/de/neusta/b4u/helper/SeleniumHelper$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/de/neusta/b4u/helper/SeleniumHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/cucumber/cucumber.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/cucumber/formatter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/cucumber/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/cucumber/jquery-1.8.2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/cucumber/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/cucumber/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/surefire-reports/TEST-de.neusta.b4u.RunCukesTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/surefire-reports/de.neusta.b4u.RunCukesTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/addresses/accountMenuAddresses.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/addresses/accountMenuAddressesCompanyAll.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/addresses/accountMenuAddressesCompanyEdit.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/addresses/accountMenuAddressesCompanyNew.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/addresses/accountMenuAddressesPersonAll.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/addresses/accountMenuAddressesPersonEdit.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/addresses/accountMenuAddressesPersonNew.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/administration/accountMenuAdministration.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/candidacies/accountMenuCandidacies.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/candidacies/accountMenuCandidaciesAll.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/contact/accountMenuContact.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/contact/accountMenuContactAll.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/contact/accountMenuContactEdit.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/contact/accountMenuContactNew.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/de/neusta/b4u/Context.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/de/neusta/b4u/RunCukesAddresses.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/de/neusta/b4u/RunCukesAdministration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/de/neusta/b4u/RunCukesCandidacies.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/de/neusta/b4u/RunCukesContact.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/de/neusta/b4u/RunCukesEmail.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/de/neusta/b4u/RunCukesJobAdvertisement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/de/neusta/b4u/RunCukesLogin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/de/neusta/b4u/RunCukesMenu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/de/neusta/b4u/RunCukesTasks.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/de/neusta/b4u/RunCukesTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/de/neusta/b4u/steps/BaseSteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/de/neusta/b4u/steps/addresses/AddressCreateCompanySteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/de/neusta/b4u/steps/addresses/AddressCreatePersonSteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/de/neusta/b4u/steps/addresses/AddressEditCompanySteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/de/neusta/b4u/steps/addresses/AddressEditPersonSteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/de/neusta/b4u/steps/addresses/AddressListCompanySteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/de/neusta/b4u/steps/addresses/AddressListPersonSteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/de/neusta/b4u/steps/addresses/AddressStepHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/de/neusta/b4u/steps/contact/ContactCreateSteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/de/neusta/b4u/steps/contact/ContactEditSteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/de/neusta/b4u/steps/contact/ContactListSteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/de/neusta/b4u/steps/contact/ContactStepHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/de/neusta/b4u/steps/jobadvertisement/JobAdvertisementCreateSteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/de/neusta/b4u/steps/jobadvertisement/JobAdvertisementEditSteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/de/neusta/b4u/steps/jobadvertisement/JobAdvertisementListSteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/de/neusta/b4u/steps/jobadvertisement/JobAdvertisementStepHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/de/neusta/b4u/steps/login/LoginSteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/de/neusta/b4u/steps/menu/MenuSteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/de/neusta/b4u/steps/tasks/TaskCreateSteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/de/neusta/b4u/steps/tasks/TaskEditSteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/de/neusta/b4u/steps/tasks/TaskListSteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/de/neusta/b4u/steps/tasks/TaskStepHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/email/accountMenuEmail.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/jobadvertisement/accountMenuJobAdvertisement.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/login/login.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/login/logout.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/menu/accountMenu.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/profile/accountProfilePersonalData.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/tasks/accountMenuTasks.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testProperties.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vim.exe.stackdump" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1132425051">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="bat" value="1" />
+          <entry key="gradle" value="2" />
+          <entry key="gradlew" value="1" />
+          <entry key="iml" value="1" />
+          <entry key="js" value="2" />
+          <entry key="properties" value="1" />
+          <entry key="xml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Groovy" value="2" />
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="JavaScript" value="2" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Properties" value="1" />
+          <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="gradle" value="34" />
+          <entry key="js" value="186" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Groovy" value="34" />
+          <entry key="JavaScript" value="186" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spec.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="21" selection-start-column="21" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/conf.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="966">
+              <caret line="46" column="25" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>test</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../../OfferingConsume" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../OfferingConsume/cucumber" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/settings.gradle" />
+        <option value="$PROJECT_DIR$/conf.js" />
+        <option value="$PROJECT_DIR$/spec.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="469" />
+    <option name="y" value="-1474" />
+    <option name="width" value="1918" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="javascript" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javascript" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javascript" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javascript" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javascript" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javascript" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550419973003" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Projekte\testinglab\javascript" />
+      <recent name="C:\Projekte\testinglab\javascript\gradle" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0adcf90e-526c-4bbc-aac4-d834d8ef86bc" name="Default Changelist" comment="" />
+      <created>1550416025288</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1550416025288</updated>
+      <workItem from="1550416027009" duration="3928000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3928000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-1449" width="2578" height="1458" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/gradlew.bat">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradlew">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="68" column="6" selection-start-line="68" selection-start-column="6" selection-end-line="68" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/init.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="62" selection-start-line="6" selection-start-column="62" selection-end-line="6" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="42" selection-start-column="42" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/javascript.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="966">
+          <caret line="46" column="25" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="21" selection-start-column="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
