@@ -1,0 +1,1147 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.tablesorter.min.js"></script>
+<script type="text/javascript" src="js/Chart.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/reporting.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="shortcut icon" href="images/favicon.png"/>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+<title>Cucumber-JVM Reports  - Steps Overview</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber-JVM Report</p>
+      <ul class="nav navbar-nav navbar-right">
+                <li role="presentation" ><a href="feature-overview.html">Features</a></li>
+        <li role="presentation" ><a href="tag-overview.html">Tags</a></li>
+        <li role="presentation"     class="active" ><a href="step-overview.html">Steps</a></li>
+        <li role="presentation" ><a href="failures-overview.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid" id="build-info">
+  <div class="row">
+    <div class="col-md-6 col-md-offset-1">
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th>Project</th>
+                          <th>Number</th>
+                        <th>Date</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="info">
+            <td>testinglab</td>
+                          <td>1</td>
+                        <td>12 Feb 2019, 23:24</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<div id="report-lead" class="container-fluid>
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <h2>Steps Statistics</h2>
+              <p>The following graph shows step statistics for this build. Below list is based on results.
+ step does not provide information about result then is not listed below.
+ Additionally @Before and @After are not counted because they are part of the scenarios, not steps.</p>
+          </div>
+  </div>
+</div>
+
+<div class="container-fluid" id="summary">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+              <table id="tablesorter" class="stats-table table-hover">
+
+          <thead>
+            <tr class="header">
+              <th>Implementation</th>
+              <th>Occurrences</th>
+              <th>Duration</th>
+              <th>Average</th>
+              <th>Ratio</th>
+            </tr>
+          </thead>
+
+          <tbody>
+                          <tr>
+                <td class="location">AddressCreateCompanySteps.i_am_on_the_create_new_company_page()</td>
+                <td>1</td>
+                <td class="duration" data-value="233759900">233ms</td>
+                <td class="duration" data-value="233759900">233ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">AddressCreateCompanySteps.i_create_a_new_company(String,DataTable)</td>
+                <td>10</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">AddressCreateCompanySteps.i_create_a_new_simple_company(String)</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">AddressCreateCompanySteps.i_have_checked_that_the_company_does_not_already_exist(String)</td>
+                <td>14</td>
+                <td class="duration" data-value="7922219000">7s 922ms</td>
+                <td class="duration" data-value="565872785">565ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">AddressCreateCompanySteps.the_company_is_created(String)</td>
+                <td>2</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">AddressCreateCompanySteps.the_create_company_page_is_being_displayed()</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">AddressCreatePersonSteps.i_am_on_the_create_new_person_page()</td>
+                <td>3</td>
+                <td class="duration" data-value="166872500">166ms</td>
+                <td class="duration" data-value="55624166">055ms</td>
+                <td class="failed">33.33%</td>
+              </tr>
+                          <tr>
+                <td class="location">AddressCreatePersonSteps.i_create_a_new_person(String,DataTable)</td>
+                <td>27</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">AddressCreatePersonSteps.i_have_checked_that_the_person_does_not_already_exist(String)</td>
+                <td>32</td>
+                <td class="duration" data-value="17412087800">17s 412ms</td>
+                <td class="duration" data-value="544127743">544ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">AddressCreatePersonSteps.the_create_person_page_is_being_displayed()</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">AddressCreatePersonSteps.the_person_is_created(String)</td>
+                <td>3</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">AddressEditCompanySteps.i_add_a_new_contact_to_the_company(String)</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">AddressEditCompanySteps.i_add_a_new_skill_to_the_company(String)</td>
+                <td>2</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">AddressEditCompanySteps.i_add_the_person_to_the_company(String)</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">AddressEditCompanySteps.i_am_on_the_edit_company_page_of(String)</td>
+                <td>12</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">AddressEditCompanySteps.i_create_a_new_person_for_the_company(String,DataTable)</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">AddressEditCompanySteps.i_delete_the_skill(String)</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">AddressEditCompanySteps.i_edit_the_company_contact_types(DataTable)</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">AddressEditCompanySteps.i_edit_the_company_details(DataTable)</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">AddressEditCompanySteps.i_edit_the_company_location(DataTable)</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">AddressEditCompanySteps.the_company_contact_list_should_only_contain(DataTable)</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">AddressEditCompanySteps.the_company_details_are(DataTable)</td>
+                <td>5</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">AddressEditCompanySteps.the_company_employee_list_contains(DataTable)</td>
+                <td>2</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">AddressEditCompanySteps.the_company_has_the_skill_not_set(String)</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">AddressEditCompanySteps.the_company_has_the_skill_set(String)</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">AddressEditPersonSteps.i_add_a_new_contact_to_the_person(String)</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">AddressEditPersonSteps.i_add_a_new_know_how(String)</td>
+                <td>3</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">AddressEditPersonSteps.i_add_a_new_project(DataTable)</td>
+                <td>3</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">AddressEditPersonSteps.i_add_a_new_skill_to_the_person(String)</td>
+                <td>3</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">AddressEditPersonSteps.i_am_on_the_edit_person_page_of(String)</td>
+                <td>17</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">AddressEditPersonSteps.i_delete_the_know_how_from_the_person(String)</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">AddressEditPersonSteps.i_delete_the_project(String)</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">AddressEditPersonSteps.i_delete_the_skill_from_the_person(String)</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">AddressEditPersonSteps.i_edit_the_person_address(DataTable)</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">AddressEditPersonSteps.i_edit_the_person_contact_types(DataTable)</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">AddressEditPersonSteps.i_edit_the_person_details(DataTable)</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">AddressEditPersonSteps.i_edit_the_person_freelancer_details(DataTable)</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">AddressEditPersonSteps.the_person_contact_list_should_only_contain(DataTable)</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">AddressEditPersonSteps.the_person_details_are(DataTable)</td>
+                <td>6</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">AddressEditPersonSteps.the_person_freelancer_details_are(DataTable)</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">AddressEditPersonSteps.the_person_has_the_know_how_not_set(String)</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">AddressEditPersonSteps.the_person_has_the_know_how_set(String)</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">AddressEditPersonSteps.the_person_has_the_skill_not_set(String)</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">AddressEditPersonSteps.the_person_has_the_skill_set(String)</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">AddressEditPersonSteps.the_person_project_list_should_be_empty()</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">AddressEditPersonSteps.the_person_project_list_should_only_contain(DataTable)</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">AddressListCompanySteps.i_am_on_the_company_address_list_page()</td>
+                <td>6</td>
+                <td class="duration" data-value="4807073400">4s 807ms</td>
+                <td class="duration" data-value="801178900">801ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">AddressListCompanySteps.i_clear_the_company_search_filter()</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">AddressListCompanySteps.i_list_the_company_search_results()</td>
+                <td>2</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">AddressListCompanySteps.i_provide_the_following_data_to_the_company_search_filter(DataTable)</td>
+                <td>3</td>
+                <td class="duration" data-value="53285500">053ms</td>
+                <td class="duration" data-value="17761833">017ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">AddressListCompanySteps.i_want_to_create_a_new_company()</td>
+                <td>1</td>
+                <td class="duration" data-value="25655500">025ms</td>
+                <td class="duration" data-value="25655500">025ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">AddressListCompanySteps.the_company_search_filter_is_empty()</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">AddressListCompanySteps.the_company_search_results_are_empty()</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">AddressListCompanySteps.the_company_search_results_should_contain(DataTable)</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">AddressListPersonSteps.i_am_on_the_person_address_list_page()</td>
+                <td>13</td>
+                <td class="duration" data-value="5166405300">5s 166ms</td>
+                <td class="duration" data-value="397415792">397ms</td>
+                <td class="failed">53.85%</td>
+              </tr>
+                          <tr>
+                <td class="location">AddressListPersonSteps.i_clear_the_person_search_filter()</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">AddressListPersonSteps.i_list_the_person_search_results()</td>
+                <td>9</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">AddressListPersonSteps.i_provide_the_following_data_to_the_person_search_filter(DataTable)</td>
+                <td>10</td>
+                <td class="duration" data-value="95143200">095ms</td>
+                <td class="duration" data-value="9514320">009ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">AddressListPersonSteps.i_want_to_create_a_new_person()</td>
+                <td>1</td>
+                <td class="duration" data-value="15291600">015ms</td>
+                <td class="duration" data-value="15291600">015ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">AddressListPersonSteps.the_freelancer_search_results_should_only_contain(String)</td>
+                <td>3</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">AddressListPersonSteps.the_person_search_filter_is_empty()</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">AddressListPersonSteps.the_person_search_results_are_empty()</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">AddressListPersonSteps.the_person_search_results_should_contain(DataTable)</td>
+                <td>5</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">BaseSteps.all_the_elements_looked_for_are_being_displayed(DataTable)</td>
+                <td>9</td>
+                <td class="duration" data-value="9955511000">9s 955ms</td>
+                <td class="duration" data-value="1106167888">1s 106ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">BaseSteps.an_error_message_is_being_displayed(String)</td>
+                <td>8</td>
+                <td class="duration" data-value="188027900">188ms</td>
+                <td class="duration" data-value="23503487">023ms</td>
+                <td class="failed">62.50%</td>
+              </tr>
+                          <tr>
+                <td class="location">BaseSteps.i_click_on_the_button(String)</td>
+                <td>5</td>
+                <td class="duration" data-value="6478374500">6s 478ms</td>
+                <td class="duration" data-value="1295674900">1s 295ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">BaseSteps.i_look_for_the_element(String)</td>
+                <td>4</td>
+                <td class="duration" data-value="387113900">387ms</td>
+                <td class="duration" data-value="96778475">096ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">BaseSteps.setUp()</td>
+                <td>118</td>
+                <td class="duration" data-value="988568943700">16m 28s 568ms</td>
+                <td class="duration" data-value="8377702912">8s 377ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">BaseSteps.tearDown()</td>
+                <td>118</td>
+                <td class="duration" data-value="13386029200">13s 386ms</td>
+                <td class="duration" data-value="113440925">113ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">BaseSteps.the_dropdown_menu_contains_the_following_items(String,DataTable)</td>
+                <td>9</td>
+                <td class="duration" data-value="8619994700">8s 619ms</td>
+                <td class="duration" data-value="957777188">957ms</td>
+                <td class="failed">33.33%</td>
+              </tr>
+                          <tr>
+                <td class="location">BaseSteps.the_element_looked_for_is_being_displayed()</td>
+                <td>4</td>
+                <td class="duration" data-value="126800">000ms</td>
+                <td class="duration" data-value="31700">000ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">ContactCreateSteps.i_am_on_the_create_new_contact_page()</td>
+                <td>1</td>
+                <td class="duration" data-value="509748000">509ms</td>
+                <td class="duration" data-value="509748000">509ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">ContactCreateSteps.i_create_a_new_contact(String,DataTable)</td>
+                <td>2</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">ContactCreateSteps.i_create_a_new_simple_contact(String)</td>
+                <td>2</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">ContactCreateSteps.i_have_checked_that_the_contact_does_not_already_exist(String)</td>
+                <td>7</td>
+                <td class="duration" data-value="3140841400">3s 140ms</td>
+                <td class="duration" data-value="448691628">448ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">ContactCreateSteps.i_have_ensured_that_the_contact_i_want_to_edit_already_exist(String)</td>
+                <td>7</td>
+                <td class="duration" data-value="4458693400">4s 458ms</td>
+                <td class="duration" data-value="636956200">636ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">ContactCreateSteps.the_contact_is_created(String)</td>
+                <td>2</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">ContactCreateSteps.the_create_contact_page_is_being_displayed()</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">ContactEditSteps.i_add_a_new_note_to_the_contact(String)</td>
+                <td>3</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">ContactEditSteps.i_am_on_the_contact_edit_page_of(String)</td>
+                <td>11</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">ContactEditSteps.i_edit_the_contact_details(DataTable)</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">ContactEditSteps.i_select_the_contact_note(String)</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">ContactEditSteps.the_contact_details_are(DataTable)</td>
+                <td>3</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">ContactEditSteps.the_contact_history_should_contain(DataTable)</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">ContactListSteps.i_am_on_the_contact_address_list_page()</td>
+                <td>5</td>
+                <td class="duration" data-value="3535580700">3s 535ms</td>
+                <td class="duration" data-value="707116140">707ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">ContactListSteps.i_clear_the_contact_search_filter()</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">ContactListSteps.i_list_the_contact_search_results()</td>
+                <td>2</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">ContactListSteps.i_provide_the_following_data_to_the_contact_search_filter(DataTable)</td>
+                <td>3</td>
+                <td class="duration" data-value="135732100">135ms</td>
+                <td class="duration" data-value="45244033">045ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">ContactListSteps.i_want_to_create_a_new_contact()</td>
+                <td>1</td>
+                <td class="duration" data-value="40417200">040ms</td>
+                <td class="duration" data-value="40417200">040ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">ContactListSteps.the_contact_search_filter_is_empty()</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">ContactListSteps.the_contact_search_results_are_empty()</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">ContactListSteps.the_contact_search_results_should_contain(DataTable)</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">JobAdvertisementCreateSteps.i_create_a_new_job_advertisement(String,DataTable)</td>
+                <td>2</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">JobAdvertisementCreateSteps.i_delete_the_job_advertisement(String)</td>
+                <td>1</td>
+                <td class="duration" data-value="649746100">649ms</td>
+                <td class="duration" data-value="649746100">649ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">JobAdvertisementCreateSteps.i_have_checked_that_the_job_advertisement_does_not_already_exist(String)</td>
+                <td>2</td>
+                <td class="duration" data-value="595877200">595ms</td>
+                <td class="duration" data-value="297938600">297ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">JobAdvertisementCreateSteps.i_try_to_create_a_new_job_advertisement()</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">JobAdvertisementCreateSteps.the_job_advertisement_is_created(String)</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">JobAdvertisementCreateSteps.the_job_advertisement_is_deleted(String)</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">JobAdvertisementCreateSteps.the_job_advertisement_popup_displays_the_note(String)</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">JobAdvertisementEditSteps.i_add_the_applicant_to_the_job_advertisement(String)</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">JobAdvertisementEditSteps.i_am_on_the_job_advertisement_edit_page_of(String)</td>
+                <td>3</td>
+                <td class="duration" data-value="563045600">563ms</td>
+                <td class="duration" data-value="187681866">187ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">JobAdvertisementEditSteps.i_edit_the_job_advertisement_details(DataTable)</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">JobAdvertisementEditSteps.the_job_advertisement_applicant_list_contains(DataTable)</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">JobAdvertisementEditSteps.the_job_advertisement_details_are(DataTable)</td>
+                <td>2</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">JobAdvertisementListSteps.i_am_on_the_task_list_page()</td>
+                <td>6</td>
+                <td class="duration" data-value="1380536900">1s 380ms</td>
+                <td class="duration" data-value="230089483">230ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">JobAdvertisementListSteps.i_clear_the_job_advertisement_search_filter()</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">JobAdvertisementListSteps.i_list_the_job_advertisement_search_results()</td>
+                <td>2</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">JobAdvertisementListSteps.i_provide_the_following_data_to_the_job_advertisement_search_filter(DataTable)</td>
+                <td>3</td>
+                <td class="duration" data-value="394379500">394ms</td>
+                <td class="duration" data-value="131459833">131ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">JobAdvertisementListSteps.the_job_advertisement_filter_is_empty()</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">JobAdvertisementListSteps.the_job_advertisement_search_results_are_empty()</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">JobAdvertisementListSteps.the_job_advertisement_search_results_should_only_contain(DataTable)</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">LoginSteps.i_am_on_the_login_page()</td>
+                <td>10</td>
+                <td class="duration" data-value="66093611500">1m 6s 093ms</td>
+                <td class="duration" data-value="6609361150">6s 609ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">LoginSteps.i_have_logged_into_my_account_as_admin()</td>
+                <td>6</td>
+                <td class="duration" data-value="58678591099">58s 678ms</td>
+                <td class="duration" data-value="9779765183">9s 779ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">LoginSteps.i_have_logged_into_my_account_as_standard_user()</td>
+                <td>101</td>
+                <td class="duration" data-value="1033660244600">17m 13s 660ms</td>
+                <td class="duration" data-value="10234259847">10s 234ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">LoginSteps.i_login()</td>
+                <td>7</td>
+                <td class="duration" data-value="9588236800">9s 588ms</td>
+                <td class="duration" data-value="1369748114">1s 369ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">LoginSteps.i_logout()</td>
+                <td>2</td>
+                <td class="duration" data-value="260783000">260ms</td>
+                <td class="duration" data-value="130391500">130ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">LoginSteps.i_provide_an_invalid_password()</td>
+                <td>3</td>
+                <td class="duration" data-value="1559132500">1s 559ms</td>
+                <td class="duration" data-value="519710833">519ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">LoginSteps.i_provide_an_invalid_username()</td>
+                <td>3</td>
+                <td class="duration" data-value="1726534700">1s 726ms</td>
+                <td class="duration" data-value="575511566">575ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">LoginSteps.i_provide_the_admin_user_credentials()</td>
+                <td>3</td>
+                <td class="duration" data-value="2412675900">2s 412ms</td>
+                <td class="duration" data-value="804225300">804ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">LoginSteps.i_provide_the_standard_user_credentials()</td>
+                <td>3</td>
+                <td class="duration" data-value="2858640700">2s 858ms</td>
+                <td class="duration" data-value="952880233">952ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">LoginSteps.the_account_page_is_being_displayed()</td>
+                <td>2</td>
+                <td class="duration" data-value="124759700">124ms</td>
+                <td class="duration" data-value="62379850">062ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">LoginSteps.the_login_page_is_being_displayed()</td>
+                <td>2</td>
+                <td class="duration" data-value="295064100">295ms</td>
+                <td class="duration" data-value="147532050">147ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">MenuSteps.all_the_menu_entries_looked_for_are_being_displayed(DataTable)</td>
+                <td>2</td>
+                <td class="duration" data-value="1612478300">1s 612ms</td>
+                <td class="duration" data-value="806239150">806ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">MenuSteps.all_the_menu_entries_looked_for_are_not_being_displayed(DataTable)</td>
+                <td>1</td>
+                <td class="duration" data-value="1113756400">1s 113ms</td>
+                <td class="duration" data-value="1113756400">1s 113ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">MenuSteps.all_the_onmouse_over_entries_looked_for_are_being_displayed(DataTable)</td>
+                <td>5</td>
+                <td class="duration" data-value="2522897300">2s 522ms</td>
+                <td class="duration" data-value="504579460">504ms</td>
+                <td class="failed">80.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">MenuSteps.i_click_on_the_menu_entry(String)</td>
+                <td>15</td>
+                <td class="duration" data-value="26896785000">26s 896ms</td>
+                <td class="duration" data-value="1793119000">1s 793ms</td>
+                <td class="failed">86.67%</td>
+              </tr>
+                          <tr>
+                <td class="location">MenuSteps.i_look_at_the_menu_entries()</td>
+                <td>3</td>
+                <td class="duration" data-value="184700">000ms</td>
+                <td class="duration" data-value="61566">000ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">MenuSteps.i_look_at_the_menu_entry(String)</td>
+                <td>19</td>
+                <td class="duration" data-value="10203673700">10s 203ms</td>
+                <td class="duration" data-value="537035457">537ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">MenuSteps.i_select_the_menu_entry(String)</td>
+                <td>5</td>
+                <td class="duration" data-value="18522349600">18s 522ms</td>
+                <td class="duration" data-value="3704469920">3s 704ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">MenuSteps.the_target_page_is_being_displayed(String)</td>
+                <td>15</td>
+                <td class="duration" data-value="656015000">656ms</td>
+                <td class="duration" data-value="43734333">043ms</td>
+                <td class="failed">86.67%</td>
+              </tr>
+                          <tr>
+                <td class="location">TaskCreateSteps.i_create_a_new_task(String,DataTable)</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">TaskCreateSteps.i_delete_the_task(String)</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">TaskCreateSteps.the_task_is_created(String)</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">TaskCreateSteps.the_task_is_deleted(String)</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">TaskEditSteps.i_edit_the_task(String,DataTable)</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">TaskEditSteps.the_task_details_are(String,DataTable)</td>
+                <td>2</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">TaskListSteps.i_am_on_the_task_list_page()</td>
+                <td>7</td>
+                <td class="duration" data-value="4422453100">4s 422ms</td>
+                <td class="duration" data-value="631779014">631ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">TaskListSteps.i_clear_the_task_search_filter()</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">TaskListSteps.i_list_the_task_search_results()</td>
+                <td>2</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">TaskListSteps.i_provide_the_following_data_to_the_task_search_filter(DataTable)</td>
+                <td>3</td>
+                <td class="duration" data-value="47010400">047ms</td>
+                <td class="duration" data-value="15670133">015ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">TaskListSteps.the_task_search_filter_is_empty()</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">TaskListSteps.the_task_search_results_are_empty()</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">TaskListSteps.the_task_search_results_should_only_contain(DataTable)</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                      </tbody>
+
+          <tfoot class="total">
+            <tr>
+              <td>143</td>
+              <td>828</td>
+              <td class="duration">38m 42s 142ms</td>
+              <td class="duration">2s 804ms</td>
+              <td>Totals</td>
+            </tr>
+          </tfoot>
+
+        </table>
+          </div>
+  </div>
+</div>
+
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+        <small>generate Cucumber HTML reports via:&nbsp;</small>
+        <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+        &nbsp;&nbsp;
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>

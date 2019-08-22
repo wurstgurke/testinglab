@@ -1,0 +1,1462 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.tablesorter.min.js"></script>
+<script type="text/javascript" src="js/Chart.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/reporting.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="shortcut icon" href="images/favicon.png"/>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+<title>Cucumber-JVM Reports  - Feature: [QA] Adressen: Person Neu</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber-JVM Report</p>
+      <ul class="nav navbar-nav navbar-right">
+                <li role="presentation" ><a href="feature-overview.html">Features</a></li>
+        <li role="presentation" ><a href="tag-overview.html">Tags</a></li>
+        <li role="presentation" ><a href="step-overview.html">Steps</a></li>
+        <li role="presentation" ><a href="failures-overview.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid" id="build-info">
+  <div class="row">
+    <div class="col-md-6 col-md-offset-1">
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th>Project</th>
+                          <th>Number</th>
+                        <th>Date</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="info">
+            <td>testinglab</td>
+                          <td>1</td>
+                        <td>12 Feb 2019, 23:24</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<div id="report-lead" class="container-fluid>
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <h2>Feature Report</h2>
+          </div>
+  </div>
+</div>
+
+<div class="container-fluid" id="summary">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <table class="stats-table">
+
+        <thead>
+  <tr class="header dont-sort">
+        <th></th>
+    <th colspan="3">Scenarios</th>
+    <th colspan="6">Steps</th>
+    <th colspan="2">Totals</th>
+  </tr>
+  <tr>
+    <th>Feature</th>
+        <th class="passed">Passed</th>
+    <th class="failed">Failed</th>
+    <th class="total">Total</th>
+    <th class="passed">Passed</th>
+    <th class="failed">Failed</th>
+    <th class="skipped">Skipped</th>
+    <th class="pending">Pending</th>
+    <th class="undefined">Undefined</th>
+    <th class="total">Total</th>
+    <th>Duration</th>
+    <th>Status</th>
+  </tr>
+</thead>
+
+        <tbody>
+        <tr>
+          <td class="tagname">[QA] Adressen: Person Neu</td>
+                    <td  class="passed"    >1</td>
+          <td  class="failed"    >4</td>
+          <td class="total">5</td>
+          <td      class="passed"    >5</td>
+          <td      class="failed"    >4</td>
+          <td     class="skipped"   >10</td>
+          <td >0</td>
+          <td   class="undefined" >1</td>
+          <td class="total">20</td>
+          <td class="duration" data-value="40680862700">40s 680ms</td>
+          <td class="failed">Failed</td>
+        </tr>
+        </tbody>
+
+      </table>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="container-fluid" id="report">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <div class="feature">
+        
+<div class="tags indention">
+  </div>
+
+        
+<div class="brief failed">
+  <span class="keyword indention">Feature</span>
+  <span class="name">[QA] Adressen: Person Neu</span>
+  
+
+  </div>
+
+        <div class="description indention">Als B4U-Nutzer möchte ich unter dem Menüpunkt "Person Neu" eine Anlagemaske mit Eingabemöglichkeiten
+für verschiedene personenbezogene Merkmale sehen,
+damit eine neue Person mit den mir bekannten relevanten Merkmalen im System anlegen kann</div>
+
+        <div class="elements inner-level">
+                      
+<div class="element">
+  
+  
+<div class="tags indention">
+       <a href="ugly.html">@ugly</a>
+  </div>
+
+
+    <span data-toggle="collapse" class=" collapsable-control" data-target="#element-1">
+    
+<div class="brief failed">
+  <span class="keyword indention">Scenario</span>
+  <span class="name">Check elements addresses menu person new</span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-1" class="collapse collapsable-details  in ">
+    
+  <div class="inner-level hooks-before">
+        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-2">
+      
+<div class="brief passed">
+  <span class="keyword indention">Hooks</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+    </div>
+
+    <div id="before-2" class="inner-level collapse collapsable-details ">
+              <div class="hook">
+          <div class="brief passed">
+            <span class="keyword indention">Before</span>
+                          <span class="location name">BaseSteps.setUp()</span>
+                        
+  <span class="lead-duration duration">12s 378ms</span>
+
+          </div>
+
+                      
+
+          
+          
+
+        </div>
+          </div>
+  </div>
+
+
+    
+<div class="steps inner-level">
+    <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-3">
+    
+<div class="brief failed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </div>
+
+  <div id="steps-3" class="inner-level collapse collapsable-details  in ">
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">I have logged into my account as standard user</span>
+  
+  <span class="lead-duration duration">9s 434ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">When</span>
+  <span class="name">I am on the create new person page</span>
+  
+  <span class="lead-duration duration">166ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief failed">
+  <span class="keyword indention">Then</span>
+  <span class="name">all the elements looked for are being displayed</span>
+  
+  <span class="lead-duration duration">1s 144ms</span>
+
+  </div>
+
+        
+
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-4">
+          <a>Error message</a>
+      </div>
+      <div id="msg-4" class="collapse collapsable-details">
+        <pre>java.lang.AssertionError: personDetailsFormView.firstName is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.BaseSteps.all_the_elements_looked_for_are_being_displayed(BaseSteps.java:66)
+	at ✽.Then all the elements looked for are being displayed(accountMenuAddressesPersonNew.feature:11)
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+                  <table class="step-arguments">
+                          <tr>
+                                  <td>Vorname</td>
+                                  <td>personDetailsFormView.firstName</td>
+                              </tr>
+                          <tr>
+                                  <td>Nachname</td>
+                                  <td>personDetailsFormView.lastName</td>
+                              </tr>
+                          <tr>
+                                  <td>Position</td>
+                                  <td>personDetailsFormView.position</td>
+                              </tr>
+                          <tr>
+                                  <td>Abteilung</td>
+                                  <td>personDetailsFormView.department</td>
+                              </tr>
+                          <tr>
+                                  <td>Firma</td>
+                                  <td>personDetailsFormView.selectedCompany</td>
+                              </tr>
+                          <tr>
+                                  <td>Art der E-Mail Adresse</td>
+                                  <td>emailAdressFormView.emailAddress[0].emailAddressTypes</td>
+                              </tr>
+                          <tr>
+                                  <td>Email-Adresse</td>
+                                  <td>emailAdressFormView.emailAddress[0].address</td>
+                              </tr>
+                          <tr>
+                                  <td>Nationalität</td>
+                                  <td>personDetailsFormView.nationality</td>
+                              </tr>
+                          <tr>
+                                  <td>Strasse</td>
+                                  <td>addressFormView.address[0].street</td>
+                              </tr>
+                          <tr>
+                                  <td>PLZ</td>
+                                  <td>addressFormView.address[0].zipCode</td>
+                              </tr>
+                          <tr>
+                                  <td>Stadt</td>
+                                  <td>addressFormView.address[0].city</td>
+                              </tr>
+                          <tr>
+                                  <td>Land</td>
+                                  <td>addressFormView.address[0].countries</td>
+                              </tr>
+                          <tr>
+                                  <td>Anrede</td>
+                                  <td>personDetailsFormView.salutationTypes</td>
+                              </tr>
+                          <tr>
+                                  <td>Titel</td>
+                                  <td>personDetailsFormView.titles</td>
+                              </tr>
+                          <tr>
+                                  <td>VCard Import</td>
+                                  <td>personCreateFormView.parseVCard</td>
+                              </tr>
+                          <tr>
+                                  <td>Speichern 1</td>
+                                  <td>personDetailsFormView.create</td>
+                              </tr>
+                          <tr>
+                                  <td>Speichern 2</td>
+                                  <td>person.createPerson</td>
+                              </tr>
+                          <tr>
+                                  <td>Kunde</td>
+                                  <td>contactTypeFormView.contactTypes[0].CUSTOMER</td>
+                              </tr>
+                          <tr>
+                                  <td>Freiberufler/in</td>
+                                  <td>contactTypeFormView.contactTypes[1].FREELANCER</td>
+                              </tr>
+                          <tr>
+                                  <td>Partner</td>
+                                  <td>contactTypeFormView.contactTypes[2].PARTNER</td>
+                              </tr>
+                          <tr>
+                                  <td>Lieferant</td>
+                                  <td>contactTypeFormView.contactTypes[3].SUPPLIER</td>
+                              </tr>
+                          <tr>
+                                  <td>Mitarbeiter/in</td>
+                                  <td>contactTypeFormView.contactTypes[4].EMPLOYEE</td>
+                              </tr>
+                          <tr>
+                                  <td>Angestellte/r (extern)</td>
+                                  <td>contactTypeFormView.contactTypes[5].EMPLOYEE_EXTERN</td>
+                              </tr>
+                          <tr>
+                                  <td>Interessent</td>
+                                  <td>contactTypeFormView.contactTypes[6].INTERESTED</td>
+                              </tr>
+                          <tr>
+                                  <td>team neusta</td>
+                                  <td>contactTypeFormView.contactTypes[7].TEAM_NEUSTA</td>
+                              </tr>
+                          <tr>
+                                  <td>Ein besonderer Tag</td>
+                                  <td>campaignsFormView.campaign.0</td>
+                              </tr>
+                          <tr>
+                                  <td>Weihnachtsgeschenk</td>
+                                  <td>campaignsFormView.campaign.1</td>
+                              </tr>
+                          <tr>
+                                  <td>Weihnachtsgruß</td>
+                                  <td>campaignsFormView.campaign.2</td>
+                              </tr>
+                          <tr>
+                                  <td>Willkommensbox erhalten</td>
+                                  <td>campaignsFormView.campaign.3</td>
+                              </tr>
+                      </table>
+        
+        
+
+        
+
+        
+
+      </div>
+      </div>
+</div>
+
+
+    
+  <div class="inner-level hooks-after">
+        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-5">
+      
+<div class="brief passed">
+  <span class="keyword indention">Hooks</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+    </div>
+
+    <div id="after-5" class="inner-level collapse collapsable-details ">
+              <div class="hook">
+          <div class="brief passed">
+            <span class="keyword indention">After</span>
+                          <span class="location name">BaseSteps.tearDown()</span>
+                        
+  <span class="lead-duration duration">069ms</span>
+
+          </div>
+
+                      
+
+          
+          
+
+        </div>
+          </div>
+  </div>
+
+  </div>
+</div>
+
+                      
+<div class="element">
+  
+  
+<div class="tags indention">
+  </div>
+
+
+    <span data-toggle="collapse" class=" collapsable-control" data-target="#element-6">
+    
+<div class="brief failed">
+  <span class="keyword indention">Scenario</span>
+  <span class="name">Person new create success</span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-6" class="collapse collapsable-details  in ">
+    
+  <div class="inner-level hooks-before">
+        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-7">
+      
+<div class="brief passed">
+  <span class="keyword indention">Hooks</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+    </div>
+
+    <div id="before-7" class="inner-level collapse collapsable-details ">
+              <div class="hook">
+          <div class="brief passed">
+            <span class="keyword indention">Before</span>
+                          <span class="location name">BaseSteps.setUp()</span>
+                        
+  <span class="lead-duration duration">3s 283ms</span>
+
+          </div>
+
+                      
+
+          
+          
+
+        </div>
+          </div>
+  </div>
+
+
+    
+<div class="steps inner-level">
+    <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-8">
+    
+<div class="brief failed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </div>
+
+  <div id="steps-8" class="inner-level collapse collapsable-details  in ">
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">I have logged into my account as standard user</span>
+  
+  <span class="lead-duration duration">9s 546ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief failed">
+  <span class="keyword indention">And</span>
+  <span class="name">I have checked that the person "Wayne, Bruce" does not already exist</span>
+  
+  <span class="lead-duration duration">1s 016ms</span>
+
+  </div>
+
+        
+
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-9">
+          <a>Error message</a>
+      </div>
+      <div id="msg-9" class="collapse collapsable-details">
+        <pre>java.lang.AssertionError: Person list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.addresses.AddressCreatePersonSteps.i_have_checked_that_the_person_does_not_already_exist(AddressCreatePersonSteps.java:43)
+	at ✽.And I have checked that the person "Wayne, Bruce" does not already exist(accountMenuAddressesPersonNew.feature:44)
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+        
+        
+
+        
+
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief skipped">
+  <span class="keyword indention">When</span>
+  <span class="name">I create a new person "Bruce Wayne"</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+                  <table class="step-arguments">
+                          <tr>
+                                  <td>salutation</td>
+                                  <td>Herr</td>
+                              </tr>
+                          <tr>
+                                  <td>position</td>
+                                  <td>Batman</td>
+                              </tr>
+                          <tr>
+                                  <td>department</td>
+                                  <td>Verbrechensbekämpfung</td>
+                              </tr>
+                          <tr>
+                                  <td>phone</td>
+                                  <td>Geschäftlich: 0123456789</td>
+                              </tr>
+                          <tr>
+                                  <td>website</td>
+                                  <td>https://wayne.enterprise</td>
+                              </tr>
+                          <tr>
+                                  <td>email</td>
+                                  <td>Geschäftlich: bruce@wayne.enterprise</td>
+                              </tr>
+                          <tr>
+                                  <td>birthdate</td>
+                                  <td>01.01.1980</td>
+                              </tr>
+                          <tr>
+                                  <td>street</td>
+                                  <td>Musterstraße</td>
+                              </tr>
+                          <tr>
+                                  <td>zipcode</td>
+                                  <td>31337</td>
+                              </tr>
+                          <tr>
+                                  <td>city</td>
+                                  <td>Gotham City</td>
+                              </tr>
+                          <tr>
+                                  <td>country</td>
+                                  <td>Deutschland</td>
+                              </tr>
+                          <tr>
+                                  <td>contacttype</td>
+                                  <td>Interessent</td>
+                              </tr>
+                      </table>
+        
+        
+
+        
+
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief skipped">
+  <span class="keyword indention">Then</span>
+  <span class="name">the person "Bruce Wayne" is created</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I am on the edit person page of "Bruce Wayne"</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">the person details are</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+                  <table class="step-arguments">
+                          <tr>
+                                  <td>name</td>
+                                  <td>Herr Bruce Wayne</td>
+                              </tr>
+                          <tr>
+                                  <td>position</td>
+                                  <td>Batman</td>
+                              </tr>
+                          <tr>
+                                  <td>department</td>
+                                  <td>Verbrechensbekämpfung</td>
+                              </tr>
+                          <tr>
+                                  <td>phone</td>
+                                  <td>Geschäftlich +49 123456789</td>
+                              </tr>
+                          <tr>
+                                  <td>website</td>
+                                  <td>https://wayne.enterprise/</td>
+                              </tr>
+                          <tr>
+                                  <td>email</td>
+                                  <td>Geschäftlich bruce@wayne.enterprise</td>
+                              </tr>
+                          <tr>
+                                  <td>birthdate</td>
+                                  <td>01.01.1980</td>
+                              </tr>
+                          <tr>
+                                  <td>address</td>
+                                  <td>🏢 Musterstraße, 31337 Gotham City, Deutschland</td>
+                              </tr>
+                          <tr>
+                                  <td>contacttype</td>
+                                  <td>Interessent</td>
+                              </tr>
+                      </table>
+        
+        
+
+        
+
+        
+
+      </div>
+      </div>
+</div>
+
+
+    
+  <div class="inner-level hooks-after">
+        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-10">
+      
+<div class="brief passed">
+  <span class="keyword indention">Hooks</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+    </div>
+
+    <div id="after-10" class="inner-level collapse collapsable-details ">
+              <div class="hook">
+          <div class="brief passed">
+            <span class="keyword indention">After</span>
+                          <span class="location name">BaseSteps.tearDown()</span>
+                        
+  <span class="lead-duration duration">062ms</span>
+
+          </div>
+
+                      
+
+          
+          
+
+        </div>
+          </div>
+  </div>
+
+  </div>
+</div>
+
+                      
+<div class="element">
+  
+  
+<div class="tags indention">
+  </div>
+
+
+    <span data-toggle="collapse" class=" collapsable-control" data-target="#element-11">
+    
+<div class="brief failed">
+  <span class="keyword indention">Scenario</span>
+  <span class="name">Person new create success [minimal requirements]</span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-11" class="collapse collapsable-details  in ">
+    
+  <div class="inner-level hooks-before">
+        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-12">
+      
+<div class="brief passed">
+  <span class="keyword indention">Hooks</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+    </div>
+
+    <div id="before-12" class="inner-level collapse collapsable-details ">
+              <div class="hook">
+          <div class="brief passed">
+            <span class="keyword indention">Before</span>
+                          <span class="location name">BaseSteps.setUp()</span>
+                        
+  <span class="lead-duration duration">18s 081ms</span>
+
+          </div>
+
+                      
+
+          
+          
+
+        </div>
+          </div>
+  </div>
+
+
+    
+<div class="steps inner-level">
+    <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-13">
+    
+<div class="brief failed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </div>
+
+  <div id="steps-13" class="inner-level collapse collapsable-details  in ">
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">I have logged into my account as standard user</span>
+  
+  <span class="lead-duration duration">9s 128ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief failed">
+  <span class="keyword indention">And</span>
+  <span class="name">I have checked that the person "Wayne, Bruce" does not already exist</span>
+  
+  <span class="lead-duration duration">650ms</span>
+
+  </div>
+
+        
+
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-14">
+          <a>Error message</a>
+      </div>
+      <div id="msg-14" class="collapse collapsable-details">
+        <pre>java.lang.AssertionError: Person list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.addresses.AddressCreatePersonSteps.i_have_checked_that_the_person_does_not_already_exist(AddressCreatePersonSteps.java:43)
+	at ✽.And I have checked that the person "Wayne, Bruce" does not already exist(accountMenuAddressesPersonNew.feature:73)
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+        
+        
+
+        
+
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief skipped">
+  <span class="keyword indention">When</span>
+  <span class="name">I create a new person "Bruce Wayne"</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+                  <table class="step-arguments">
+                          <tr>
+                                  <td>salutation</td>
+                                  <td>Herr</td>
+                              </tr>
+                          <tr>
+                                  <td>contacttype</td>
+                                  <td>Interessent</td>
+                              </tr>
+                      </table>
+        
+        
+
+        
+
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief skipped">
+  <span class="keyword indention">Then</span>
+  <span class="name">the person "Bruce Wayne" is created</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">I am on the edit person page of "Bruce Wayne"</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">the person details are</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+                  <table class="step-arguments">
+                          <tr>
+                                  <td>name</td>
+                                  <td>Herr Bruce Wayne</td>
+                              </tr>
+                          <tr>
+                                  <td>contacttype</td>
+                                  <td>Interessent</td>
+                              </tr>
+                      </table>
+        
+        
+
+        
+
+        
+
+      </div>
+      </div>
+</div>
+
+
+    
+  <div class="inner-level hooks-after">
+        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-15">
+      
+<div class="brief passed">
+  <span class="keyword indention">Hooks</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+    </div>
+
+    <div id="after-15" class="inner-level collapse collapsable-details ">
+              <div class="hook">
+          <div class="brief passed">
+            <span class="keyword indention">After</span>
+                          <span class="location name">BaseSteps.tearDown()</span>
+                        
+  <span class="lead-duration duration">063ms</span>
+
+          </div>
+
+                      
+
+          
+          
+
+        </div>
+          </div>
+  </div>
+
+  </div>
+</div>
+
+                      
+<div class="element">
+  
+  
+<div class="tags indention">
+  </div>
+
+
+    <span data-toggle="collapse" class=" collapsable-control" data-target="#element-16">
+    
+<div class="brief failed">
+  <span class="keyword indention">Scenario</span>
+  <span class="name">Person new create error [missing contact type]</span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-16" class="collapse collapsable-details  in ">
+    
+  <div class="inner-level hooks-before">
+        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-17">
+      
+<div class="brief passed">
+  <span class="keyword indention">Hooks</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+    </div>
+
+    <div id="before-17" class="inner-level collapse collapsable-details ">
+              <div class="hook">
+          <div class="brief passed">
+            <span class="keyword indention">Before</span>
+                          <span class="location name">BaseSteps.setUp()</span>
+                        
+  <span class="lead-duration duration">3s 507ms</span>
+
+          </div>
+
+                      
+
+          
+          
+
+        </div>
+          </div>
+  </div>
+
+
+    
+<div class="steps inner-level">
+    <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-18">
+    
+<div class="brief failed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </div>
+
+  <div id="steps-18" class="inner-level collapse collapsable-details  in ">
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">I have logged into my account as standard user</span>
+  
+  <span class="lead-duration duration">8s 683ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief failed">
+  <span class="keyword indention">And</span>
+  <span class="name">I have checked that the person "Wayne, Bruce" does not already exist</span>
+  
+  <span class="lead-duration duration">909ms</span>
+
+  </div>
+
+        
+
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-19">
+          <a>Error message</a>
+      </div>
+      <div id="msg-19" class="collapse collapsable-details">
+        <pre>java.lang.AssertionError: Person list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.addresses.AddressCreatePersonSteps.i_have_checked_that_the_person_does_not_already_exist(AddressCreatePersonSteps.java:43)
+	at ✽.And I have checked that the person "Wayne, Bruce" does not already exist(accountMenuAddressesPersonNew.feature:85)
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+        
+        
+
+        
+
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief skipped">
+  <span class="keyword indention">When</span>
+  <span class="name">I create a new person "Bruce Wayne"</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+                  <table class="step-arguments">
+                          <tr>
+                                  <td>salutation</td>
+                                  <td>Herr</td>
+                              </tr>
+                      </table>
+        
+        
+
+        
+
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief skipped">
+  <span class="keyword indention">Then</span>
+  <span class="name">an error message is being displayed "required"</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+
+      </div>
+      </div>
+</div>
+
+
+    
+  <div class="inner-level hooks-after">
+        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-20">
+      
+<div class="brief passed">
+  <span class="keyword indention">Hooks</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+    </div>
+
+    <div id="after-20" class="inner-level collapse collapsable-details ">
+              <div class="hook">
+          <div class="brief passed">
+            <span class="keyword indention">After</span>
+                          <span class="location name">BaseSteps.tearDown()</span>
+                        
+  <span class="lead-duration duration">114ms</span>
+
+          </div>
+
+                      
+
+          
+          
+
+        </div>
+          </div>
+  </div>
+
+  </div>
+</div>
+
+                      
+<div class="element">
+  
+  
+<div class="tags indention">
+  </div>
+
+
+    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-21">
+    
+<div class="brief passed">
+  <span class="keyword indention">Scenario</span>
+  <span class="name">Person new create success</span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-21" class="collapse collapsable-details ">
+    
+  <div class="inner-level hooks-before">
+        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-22">
+      
+<div class="brief passed">
+  <span class="keyword indention">Hooks</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+    </div>
+
+    <div id="before-22" class="inner-level collapse collapsable-details ">
+              <div class="hook">
+          <div class="brief passed">
+            <span class="keyword indention">Before</span>
+                          <span class="location name">BaseSteps.setUp()</span>
+                        
+  <span class="lead-duration duration">4s 406ms</span>
+
+          </div>
+
+                      
+
+          
+          
+
+        </div>
+          </div>
+  </div>
+
+
+    
+<div class="steps inner-level">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-23">
+    
+<div class="brief failed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </div>
+
+  <div id="steps-23" class="inner-level collapse collapsable-details ">
+          <div class="step">
+        
+<div class="brief undefined">
+  <span class="keyword indention">Given</span>
+  <span class="name">I have logged into my account as standard test12</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+
+      </div>
+      </div>
+</div>
+
+
+    
+  <div class="inner-level hooks-after">
+        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-24">
+      
+<div class="brief passed">
+  <span class="keyword indention">Hooks</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+    </div>
+
+    <div id="after-24" class="inner-level collapse collapsable-details ">
+              <div class="hook">
+          <div class="brief passed">
+            <span class="keyword indention">After</span>
+                          <span class="location name">BaseSteps.tearDown()</span>
+                        
+  <span class="lead-duration duration">095ms</span>
+
+          </div>
+
+                      
+
+          
+          
+
+        </div>
+          </div>
+  </div>
+
+  </div>
+</div>
+
+                  </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+        <small>generate Cucumber HTML reports via:&nbsp;</small>
+        <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+        &nbsp;&nbsp;
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>

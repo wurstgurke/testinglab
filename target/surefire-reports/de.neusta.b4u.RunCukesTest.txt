@@ -1,0 +1,1334 @@
+-------------------------------------------------------------------------------
+Test set: de.neusta.b4u.RunCukesTest
+-------------------------------------------------------------------------------
+Tests run: 712, Failures: 148, Errors: 18, Skipped: 256, Time elapsed: 2,323.754 sec <<< FAILURE!
+Then all the menu entries looked for are being displayed(Scenario: Check menu entries that are visible as standard user)  Time elapsed: 0.005 sec  <<< FAILURE!
+java.lang.AssertionError: TestB4U User is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.menu.MenuSteps.all_the_menu_entries_looked_for_are_being_displayed(MenuSteps.java:38)
+	at ?.Then all the menu entries looked for are being displayed(accountMenu.feature:10)
+Scenario: Check menu entries that are visible as standard user  Time elapsed: 0.005 sec  <<< FAILURE!
+java.lang.AssertionError: TestB4U User is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.menu.MenuSteps.all_the_menu_entries_looked_for_are_being_displayed(MenuSteps.java:38)
+	at ?.Then all the menu entries looked for are being displayed(accountMenu.feature:10)
+Then all the menu entries looked for are being displayed(Scenario: Check menu entries that are visible as administrator)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: TestB4U Admin is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.menu.MenuSteps.all_the_menu_entries_looked_for_are_being_displayed(MenuSteps.java:38)
+	at ?.Then all the menu entries looked for are being displayed(accountMenu.feature:32)
+Scenario: Check menu entries that are visible as administrator  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: TestB4U Admin is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.menu.MenuSteps.all_the_menu_entries_looked_for_are_being_displayed(MenuSteps.java:38)
+	at ?.Then all the menu entries looked for are being displayed(accountMenu.feature:32)
+Then all the onmouse over entries looked for are being displayed(Scenario: Check menu entries addresses)  Time elapsed: 0.003 sec  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"navigationView.Adressen.Profil importieren"}
+  (Session info: chrome=72.0.3626.81)
+  (Driver info: chromedriver=2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926),platform=Linux 4.9.125-linuxkit x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.09 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'DESKTOP-IN4UB21', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:44899}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926), userDataDir=/tmp/.org.chromium.Chromium.I0cUFv}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=72.0.3626.81, browserConnectionEnabled=false, proxy={}, nativeEvents=true, webdriver.remote.sessionid=f107d96fe096bebb1f69e12df8afeff9, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: f107d96fe096bebb1f69e12df8afeff9
+*** Element info: {Using=id, value=navigationView.Adressen.Profil importieren}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:417)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at de.neusta.b4u.steps.menu.MenuSteps.all_the_onmouse_over_entries_looked_for_are_being_displayed(MenuSteps.java:66)
+	at ?.Then all the onmouse over entries looked for are being displayed(accountMenuAddresses.feature:11)
+Scenario: Check menu entries addresses  Time elapsed: 0.005 sec  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"navigationView.Adressen.Profil importieren"}
+  (Session info: chrome=72.0.3626.81)
+  (Driver info: chromedriver=2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926),platform=Linux 4.9.125-linuxkit x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.09 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'DESKTOP-IN4UB21', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:44899}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926), userDataDir=/tmp/.org.chromium.Chromium.I0cUFv}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=72.0.3626.81, browserConnectionEnabled=false, proxy={}, nativeEvents=true, webdriver.remote.sessionid=f107d96fe096bebb1f69e12df8afeff9, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: f107d96fe096bebb1f69e12df8afeff9
+*** Element info: {Using=id, value=navigationView.Adressen.Profil importieren}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:417)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at de.neusta.b4u.steps.menu.MenuSteps.all_the_onmouse_over_entries_looked_for_are_being_displayed(MenuSteps.java:66)
+	at ?.Then all the onmouse over entries looked for are being displayed(accountMenuAddresses.feature:11)
+And I click on the menu entry \"navigationView.Adressen.Profil importieren\"(| Profil importieren | navigationView.Adressen.Profil importieren | \/profile\/create |)  Time elapsed: 0.002 sec  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"navigationView.Adressen.Profil importieren"}
+  (Session info: chrome=72.0.3626.81)
+  (Driver info: chromedriver=2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926),platform=Linux 4.9.125-linuxkit x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.03 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'DESKTOP-IN4UB21', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:45495}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926), userDataDir=/tmp/.org.chromium.Chromium.29kGnu}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=72.0.3626.81, browserConnectionEnabled=false, proxy={}, nativeEvents=true, webdriver.remote.sessionid=64b9d6d3cb93c802afea9d85dcd3eca0, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 64b9d6d3cb93c802afea9d85dcd3eca0
+*** Element info: {Using=id, value=navigationView.Adressen.Profil importieren}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:417)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at de.neusta.b4u.steps.menu.MenuSteps.i_click_on_the_menu_entry(MenuSteps.java:52)
+	at ?.And I click on the menu entry "navigationView.Adressen.Profil importieren"(accountMenuAddresses.feature:22)
+| Profil importieren | navigationView.Adressen.Profil importieren | \/profile\/create |  Time elapsed: 0.004 sec  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"navigationView.Adressen.Profil importieren"}
+  (Session info: chrome=72.0.3626.81)
+  (Driver info: chromedriver=2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926),platform=Linux 4.9.125-linuxkit x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.03 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'DESKTOP-IN4UB21', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:45495}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926), userDataDir=/tmp/.org.chromium.Chromium.29kGnu}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=72.0.3626.81, browserConnectionEnabled=false, proxy={}, nativeEvents=true, webdriver.remote.sessionid=64b9d6d3cb93c802afea9d85dcd3eca0, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 64b9d6d3cb93c802afea9d85dcd3eca0
+*** Element info: {Using=id, value=navigationView.Adressen.Profil importieren}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:417)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at de.neusta.b4u.steps.menu.MenuSteps.i_click_on_the_menu_entry(MenuSteps.java:52)
+	at ?.And I click on the menu entry "navigationView.Adressen.Profil importieren"(accountMenuAddresses.feature:22)
+Then all the elements looked for are being displayed(Scenario: Check elements addresses menu company all)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: companyAddressTableView.nameOrId is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.BaseSteps.all_the_elements_looked_for_are_being_displayed(BaseSteps.java:66)
+	at ?.Then all the elements looked for are being displayed(accountMenuAddressesCompanyAll.feature:10)
+Scenario: Check elements addresses menu company all  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: companyAddressTableView.nameOrId is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.BaseSteps.all_the_elements_looked_for_are_being_displayed(BaseSteps.java:66)
+	at ?.Then all the elements looked for are being displayed(accountMenuAddressesCompanyAll.feature:10)
+Then the dropdown menu \"companyAddressTableView.contactTypes\" contains the following items(Scenario: Check dropdown entries addresses menu company all)  Time elapsed: 0.002 sec  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"companyAddressTableView.contactTypes"}
+  (Session info: chrome=72.0.3626.81)
+  (Driver info: chromedriver=2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926),platform=Linux 4.9.125-linuxkit x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.03 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'DESKTOP-IN4UB21', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:35511}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926), userDataDir=/tmp/.org.chromium.Chromium.k3CfcY}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=72.0.3626.81, browserConnectionEnabled=false, proxy={}, nativeEvents=true, webdriver.remote.sessionid=6dcf75fc8a1eae216bb9aa8d4455e009, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 6dcf75fc8a1eae216bb9aa8d4455e009
+*** Element info: {Using=id, value=companyAddressTableView.contactTypes}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:417)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at de.neusta.b4u.steps.BaseSteps.the_dropdown_menu_contains_the_following_items(BaseSteps.java:72)
+	at ?.Then the dropdown menu "companyAddressTableView.contactTypes" contains the following items(accountMenuAddressesCompanyAll.feature:27)
+Scenario: Check dropdown entries addresses menu company all  Time elapsed: 0.004 sec  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"companyAddressTableView.contactTypes"}
+  (Session info: chrome=72.0.3626.81)
+  (Driver info: chromedriver=2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926),platform=Linux 4.9.125-linuxkit x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.03 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'DESKTOP-IN4UB21', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:35511}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926), userDataDir=/tmp/.org.chromium.Chromium.k3CfcY}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=72.0.3626.81, browserConnectionEnabled=false, proxy={}, nativeEvents=true, webdriver.remote.sessionid=6dcf75fc8a1eae216bb9aa8d4455e009, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 6dcf75fc8a1eae216bb9aa8d4455e009
+*** Element info: {Using=id, value=companyAddressTableView.contactTypes}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:417)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at de.neusta.b4u.steps.BaseSteps.the_dropdown_menu_contains_the_following_items(BaseSteps.java:72)
+	at ?.Then the dropdown menu "companyAddressTableView.contactTypes" contains the following items(accountMenuAddressesCompanyAll.feature:27)
+When I want to create a new company(Scenario: Check if it is possible to navigate the create company page)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: Company list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.addresses.AddressListCompanySteps.i_want_to_create_a_new_company(AddressListCompanySteps.java:87)
+	at ?.When I want to create a new company(accountMenuAddressesCompanyAll.feature:40)
+Scenario: Check if it is possible to navigate the create company page  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: Company list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.addresses.AddressListCompanySteps.i_want_to_create_a_new_company(AddressListCompanySteps.java:87)
+	at ?.When I want to create a new company(accountMenuAddressesCompanyAll.feature:40)
+And I provide the following data to the company search filter(Scenario: Check if it is possible to clear the search filter)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Company list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.addresses.AddressListCompanySteps.i_provide_the_following_data_to_the_company_search_filter(AddressListCompanySteps.java:30)
+	at ?.And I provide the following data to the company search filter(accountMenuAddressesCompanyAll.feature:46)
+Scenario: Check if it is possible to clear the search filter  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Company list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.addresses.AddressListCompanySteps.i_provide_the_following_data_to_the_company_search_filter(AddressListCompanySteps.java:30)
+	at ?.And I provide the following data to the company search filter(accountMenuAddressesCompanyAll.feature:46)
+And I provide the following data to the company search filter(Scenario: Check if the search results match the search filter criteria)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Company list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.addresses.AddressListCompanySteps.i_provide_the_following_data_to_the_company_search_filter(AddressListCompanySteps.java:30)
+	at ?.And I provide the following data to the company search filter(accountMenuAddressesCompanyAll.feature:59)
+Scenario: Check if the search results match the search filter criteria  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Company list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.addresses.AddressListCompanySteps.i_provide_the_following_data_to_the_company_search_filter(AddressListCompanySteps.java:30)
+	at ?.And I provide the following data to the company search filter(accountMenuAddressesCompanyAll.feature:59)
+And I provide the following data to the company search filter(Scenario: Check if the search filters are correct)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Company list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.addresses.AddressListCompanySteps.i_provide_the_following_data_to_the_company_search_filter(AddressListCompanySteps.java:30)
+	at ?.And I provide the following data to the company search filter(accountMenuAddressesCompanyAll.feature:73)
+Scenario: Check if the search filters are correct  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Company list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.addresses.AddressListCompanySteps.i_provide_the_following_data_to_the_company_search_filter(AddressListCompanySteps.java:30)
+	at ?.And I provide the following data to the company search filter(accountMenuAddressesCompanyAll.feature:73)
+And I have checked that the company \"Wayne Enterprise\" does not already exist(Scenario: Change company details [without contact types])  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Company list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.addresses.AddressCreateCompanySteps.i_have_checked_that_the_company_does_not_already_exist(AddressCreateCompanySteps.java:44)
+	at ?.And I have checked that the company "Wayne Enterprise" does not already exist(accountMenuAddressesCompanyEdit.feature:7)
+Scenario: Change company details [without contact types]  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Company list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.addresses.AddressCreateCompanySteps.i_have_checked_that_the_company_does_not_already_exist(AddressCreateCompanySteps.java:44)
+	at ?.And I have checked that the company "Wayne Enterprise" does not already exist(accountMenuAddressesCompanyEdit.feature:7)
+And I have checked that the company \"Wayne Enterprise\" does not already exist(Scenario: Change company location)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Company list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.addresses.AddressCreateCompanySteps.i_have_checked_that_the_company_does_not_already_exist(AddressCreateCompanySteps.java:44)
+	at ?.And I have checked that the company "Wayne Enterprise" does not already exist(accountMenuAddressesCompanyEdit.feature:25)
+Scenario: Change company location  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Company list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.addresses.AddressCreateCompanySteps.i_have_checked_that_the_company_does_not_already_exist(AddressCreateCompanySteps.java:44)
+	at ?.And I have checked that the company "Wayne Enterprise" does not already exist(accountMenuAddressesCompanyEdit.feature:25)
+And I have checked that the company \"Wayne Enterprise\" does not already exist(Scenario: Change company contact types)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Company list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.addresses.AddressCreateCompanySteps.i_have_checked_that_the_company_does_not_already_exist(AddressCreateCompanySteps.java:44)
+	at ?.And I have checked that the company "Wayne Enterprise" does not already exist(accountMenuAddressesCompanyEdit.feature:45)
+Scenario: Change company contact types  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: Company list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.addresses.AddressCreateCompanySteps.i_have_checked_that_the_company_does_not_already_exist(AddressCreateCompanySteps.java:44)
+	at ?.And I have checked that the company "Wayne Enterprise" does not already exist(accountMenuAddressesCompanyEdit.feature:45)
+And I have checked that the company \"Wayne Enterprise\" does not already exist(Scenario: Add new contact to an existing company)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Company list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.addresses.AddressCreateCompanySteps.i_have_checked_that_the_company_does_not_already_exist(AddressCreateCompanySteps.java:44)
+	at ?.And I have checked that the company "Wayne Enterprise" does not already exist(accountMenuAddressesCompanyEdit.feature:60)
+Scenario: Add new contact to an existing company  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Company list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.addresses.AddressCreateCompanySteps.i_have_checked_that_the_company_does_not_already_exist(AddressCreateCompanySteps.java:44)
+	at ?.And I have checked that the company "Wayne Enterprise" does not already exist(accountMenuAddressesCompanyEdit.feature:60)
+And I have checked that the company \"Wayne Enterprise\" does not already exist(Scenario: Add a skill to an existing company)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Company list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.addresses.AddressCreateCompanySteps.i_have_checked_that_the_company_does_not_already_exist(AddressCreateCompanySteps.java:44)
+	at ?.And I have checked that the company "Wayne Enterprise" does not already exist(accountMenuAddressesCompanyEdit.feature:73)
+Scenario: Add a skill to an existing company  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Company list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.addresses.AddressCreateCompanySteps.i_have_checked_that_the_company_does_not_already_exist(AddressCreateCompanySteps.java:44)
+	at ?.And I have checked that the company "Wayne Enterprise" does not already exist(accountMenuAddressesCompanyEdit.feature:73)
+And I have checked that the company \"Wayne Enterprise\" does not already exist(Scenario: Remove a skill from an existing company)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Company list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.addresses.AddressCreateCompanySteps.i_have_checked_that_the_company_does_not_already_exist(AddressCreateCompanySteps.java:44)
+	at ?.And I have checked that the company "Wayne Enterprise" does not already exist(accountMenuAddressesCompanyEdit.feature:83)
+Scenario: Remove a skill from an existing company  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Company list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.addresses.AddressCreateCompanySteps.i_have_checked_that_the_company_does_not_already_exist(AddressCreateCompanySteps.java:44)
+	at ?.And I have checked that the company "Wayne Enterprise" does not already exist(accountMenuAddressesCompanyEdit.feature:83)
+And I have checked that the company \"Wayne Enterprise\" does not already exist(Scenario: Create a new person for an existing company)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Company list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.addresses.AddressCreateCompanySteps.i_have_checked_that_the_company_does_not_already_exist(AddressCreateCompanySteps.java:44)
+	at ?.And I have checked that the company "Wayne Enterprise" does not already exist(accountMenuAddressesCompanyEdit.feature:94)
+Scenario: Create a new person for an existing company  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Company list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.addresses.AddressCreateCompanySteps.i_have_checked_that_the_company_does_not_already_exist(AddressCreateCompanySteps.java:44)
+	at ?.And I have checked that the company "Wayne Enterprise" does not already exist(accountMenuAddressesCompanyEdit.feature:94)
+And I have checked that the company \"Wayne Enterprise\" does not already exist(Scenario: Add an existing person to an existing company)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Company list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.addresses.AddressCreateCompanySteps.i_have_checked_that_the_company_does_not_already_exist(AddressCreateCompanySteps.java:44)
+	at ?.And I have checked that the company "Wayne Enterprise" does not already exist(accountMenuAddressesCompanyEdit.feature:131)
+Scenario: Add an existing person to an existing company  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Company list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.addresses.AddressCreateCompanySteps.i_have_checked_that_the_company_does_not_already_exist(AddressCreateCompanySteps.java:44)
+	at ?.And I have checked that the company "Wayne Enterprise" does not already exist(accountMenuAddressesCompanyEdit.feature:131)
+Then all the elements looked for are being displayed(Scenario: Check elements addresses menu company new)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: companyDetailsView.name is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.BaseSteps.all_the_elements_looked_for_are_being_displayed(BaseSteps.java:66)
+	at ?.Then all the elements looked for are being displayed(accountMenuAddressesCompanyNew.feature:11)
+Scenario: Check elements addresses menu company new  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: companyDetailsView.name is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.BaseSteps.all_the_elements_looked_for_are_being_displayed(BaseSteps.java:66)
+	at ?.Then all the elements looked for are being displayed(accountMenuAddressesCompanyNew.feature:11)
+And I have checked that the company \"Wayne Enterprise\" does not already exist(Scenario: Company new create success)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Company list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.addresses.AddressCreateCompanySteps.i_have_checked_that_the_company_does_not_already_exist(AddressCreateCompanySteps.java:44)
+	at ?.And I have checked that the company "Wayne Enterprise" does not already exist(accountMenuAddressesCompanyNew.feature:36)
+Scenario: Company new create success  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Company list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.addresses.AddressCreateCompanySteps.i_have_checked_that_the_company_does_not_already_exist(AddressCreateCompanySteps.java:44)
+	at ?.And I have checked that the company "Wayne Enterprise" does not already exist(accountMenuAddressesCompanyNew.feature:36)
+And I have checked that the company \"Wayne Enterprise\" does not already exist(Scenario: Company new create success [minimal requirements])  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Company list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.addresses.AddressCreateCompanySteps.i_have_checked_that_the_company_does_not_already_exist(AddressCreateCompanySteps.java:44)
+	at ?.And I have checked that the company "Wayne Enterprise" does not already exist(accountMenuAddressesCompanyNew.feature:58)
+Scenario: Company new create success [minimal requirements]  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Company list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.addresses.AddressCreateCompanySteps.i_have_checked_that_the_company_does_not_already_exist(AddressCreateCompanySteps.java:44)
+	at ?.And I have checked that the company "Wayne Enterprise" does not already exist(accountMenuAddressesCompanyNew.feature:58)
+And I have checked that the company \"Wayne Enterprise\" does not already exist(Scenario: Company new create failure [missing contact type])  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Company list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.addresses.AddressCreateCompanySteps.i_have_checked_that_the_company_does_not_already_exist(AddressCreateCompanySteps.java:44)
+	at ?.And I have checked that the company "Wayne Enterprise" does not already exist(accountMenuAddressesCompanyNew.feature:69)
+Scenario: Company new create failure [missing contact type]  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: Company list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.addresses.AddressCreateCompanySteps.i_have_checked_that_the_company_does_not_already_exist(AddressCreateCompanySteps.java:44)
+	at ?.And I have checked that the company "Wayne Enterprise" does not already exist(accountMenuAddressesCompanyNew.feature:69)
+Then all the elements looked for are being displayed(Scenario: Check elements addresses menu person all)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: personAddressTableView.nameOrId is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.BaseSteps.all_the_elements_looked_for_are_being_displayed(BaseSteps.java:66)
+	at ?.Then all the elements looked for are being displayed(accountMenuAddressesPersonAll.feature:10)
+Scenario: Check elements addresses menu person all  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: personAddressTableView.nameOrId is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.BaseSteps.all_the_elements_looked_for_are_being_displayed(BaseSteps.java:66)
+	at ?.Then all the elements looked for are being displayed(accountMenuAddressesPersonAll.feature:10)
+Then the dropdown menu \"personAddressTableView.contactTypes\" contains the following items(Scenario: Check dropdown entries addresses menu person all)  Time elapsed: 0.001 sec  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"personAddressTableView.contactTypes"}
+  (Session info: chrome=72.0.3626.81)
+  (Driver info: chromedriver=2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926),platform=Linux 4.9.125-linuxkit x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.08 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'DESKTOP-IN4UB21', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:40079}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926), userDataDir=/tmp/.org.chromium.Chromium.hYGMLZ}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=72.0.3626.81, browserConnectionEnabled=false, proxy={}, nativeEvents=true, webdriver.remote.sessionid=1b391977c8f1e4d76de8e95dcc20c916, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 1b391977c8f1e4d76de8e95dcc20c916
+*** Element info: {Using=id, value=personAddressTableView.contactTypes}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:417)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at de.neusta.b4u.steps.BaseSteps.the_dropdown_menu_contains_the_following_items(BaseSteps.java:72)
+	at ?.Then the dropdown menu "personAddressTableView.contactTypes" contains the following items(accountMenuAddressesPersonAll.feature:28)
+Scenario: Check dropdown entries addresses menu person all  Time elapsed: 0.002 sec  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"personAddressTableView.contactTypes"}
+  (Session info: chrome=72.0.3626.81)
+  (Driver info: chromedriver=2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926),platform=Linux 4.9.125-linuxkit x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.08 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'DESKTOP-IN4UB21', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:40079}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926), userDataDir=/tmp/.org.chromium.Chromium.hYGMLZ}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=72.0.3626.81, browserConnectionEnabled=false, proxy={}, nativeEvents=true, webdriver.remote.sessionid=1b391977c8f1e4d76de8e95dcc20c916, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 1b391977c8f1e4d76de8e95dcc20c916
+*** Element info: {Using=id, value=personAddressTableView.contactTypes}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:417)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at de.neusta.b4u.steps.BaseSteps.the_dropdown_menu_contains_the_following_items(BaseSteps.java:72)
+	at ?.Then the dropdown menu "personAddressTableView.contactTypes" contains the following items(accountMenuAddressesPersonAll.feature:28)
+When I want to create a new person(Scenario: Check if it is possible to navigate the create person page)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Person list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.addresses.AddressListPersonSteps.i_want_to_create_a_new_person(AddressListPersonSteps.java:101)
+	at ?.When I want to create a new person(accountMenuAddressesPersonAll.feature:43)
+Scenario: Check if it is possible to navigate the create person page  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Person list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.addresses.AddressListPersonSteps.i_want_to_create_a_new_person(AddressListPersonSteps.java:101)
+	at ?.When I want to create a new person(accountMenuAddressesPersonAll.feature:43)
+And I provide the following data to the person search filter(Scenario: Check if it is possible to clear the search filter)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Person list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.addresses.AddressListPersonSteps.i_provide_the_following_data_to_the_person_search_filter(AddressListPersonSteps.java:33)
+	at ?.And I provide the following data to the person search filter(accountMenuAddressesPersonAll.feature:49)
+Scenario: Check if it is possible to clear the search filter  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Person list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.addresses.AddressListPersonSteps.i_provide_the_following_data_to_the_person_search_filter(AddressListPersonSteps.java:33)
+	at ?.And I provide the following data to the person search filter(accountMenuAddressesPersonAll.feature:49)
+And I provide the following data to the person search filter(Scenario: Check if the search results match the search filter criteria [Full])  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Person list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.addresses.AddressListPersonSteps.i_provide_the_following_data_to_the_person_search_filter(AddressListPersonSteps.java:33)
+	at ?.And I provide the following data to the person search filter(accountMenuAddressesPersonAll.feature:63)
+Scenario: Check if the search results match the search filter criteria [Full]  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Person list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.addresses.AddressListPersonSteps.i_provide_the_following_data_to_the_person_search_filter(AddressListPersonSteps.java:33)
+	at ?.And I provide the following data to the person search filter(accountMenuAddressesPersonAll.feature:63)
+And I provide the following data to the person search filter(Scenario: Check if the search results match the search filter criteria [LastName\u002C FirstName])  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Person list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.addresses.AddressListPersonSteps.i_provide_the_following_data_to_the_person_search_filter(AddressListPersonSteps.java:33)
+	at ?.And I provide the following data to the person search filter(accountMenuAddressesPersonAll.feature:78)
+Scenario: Check if the search results match the search filter criteria [LastName\u002C FirstName]  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: Person list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.addresses.AddressListPersonSteps.i_provide_the_following_data_to_the_person_search_filter(AddressListPersonSteps.java:33)
+	at ?.And I provide the following data to the person search filter(accountMenuAddressesPersonAll.feature:78)
+And I have checked that the person \"Banner\u002C Brucie\" does not already exist(Scenario: Check if the search results match the search filter criteria [FirstName])  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Person list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.addresses.AddressCreatePersonSteps.i_have_checked_that_the_person_does_not_already_exist(AddressCreatePersonSteps.java:43)
+	at ?.And I have checked that the person "Banner, Brucie" does not already exist(accountMenuAddressesPersonAll.feature:86)
+Scenario: Check if the search results match the search filter criteria [FirstName]  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Person list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.addresses.AddressCreatePersonSteps.i_have_checked_that_the_person_does_not_already_exist(AddressCreatePersonSteps.java:43)
+	at ?.And I have checked that the person "Banner, Brucie" does not already exist(accountMenuAddressesPersonAll.feature:86)
+And I have checked that the person \"Skywalker\u002C Luke\" does not already exist(Scenario: Check if the search results match the search filter criteria [LastName])  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Person list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.addresses.AddressCreatePersonSteps.i_have_checked_that_the_person_does_not_already_exist(AddressCreatePersonSteps.java:43)
+	at ?.And I have checked that the person "Skywalker, Luke" does not already exist(accountMenuAddressesPersonAll.feature:108)
+Scenario: Check if the search results match the search filter criteria [LastName]  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Person list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.addresses.AddressCreatePersonSteps.i_have_checked_that_the_person_does_not_already_exist(AddressCreatePersonSteps.java:43)
+	at ?.And I have checked that the person "Skywalker, Luke" does not already exist(accountMenuAddressesPersonAll.feature:108)
+And I have checked that the person \"Skywalker\u002C Luke\" does not already exist(Scenario: Check if the search results match the search filter criteria [All])  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Person list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.addresses.AddressCreatePersonSteps.i_have_checked_that_the_person_does_not_already_exist(AddressCreatePersonSteps.java:43)
+	at ?.And I have checked that the person "Skywalker, Luke" does not already exist(accountMenuAddressesPersonAll.feature:130)
+Scenario: Check if the search results match the search filter criteria [All]  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Person list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.addresses.AddressCreatePersonSteps.i_have_checked_that_the_person_does_not_already_exist(AddressCreatePersonSteps.java:43)
+	at ?.And I have checked that the person "Skywalker, Luke" does not already exist(accountMenuAddressesPersonAll.feature:130)
+And I provide the following data to the person search filter(Scenario: Check if the search filters are correct)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Person list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.addresses.AddressListPersonSteps.i_provide_the_following_data_to_the_person_search_filter(AddressListPersonSteps.java:33)
+	at ?.And I provide the following data to the person search filter(accountMenuAddressesPersonAll.feature:150)
+Scenario: Check if the search filters are correct  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Person list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.addresses.AddressListPersonSteps.i_provide_the_following_data_to_the_person_search_filter(AddressListPersonSteps.java:33)
+	at ?.And I provide the following data to the person search filter(accountMenuAddressesPersonAll.feature:150)
+And I have checked that the person \"Banner\u002C Bruce\" does not already exist(Scenario: Check if the keyword filter is correct [Knowhow])  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Person list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.addresses.AddressCreatePersonSteps.i_have_checked_that_the_person_does_not_already_exist(AddressCreatePersonSteps.java:43)
+	at ?.And I have checked that the person "Banner, Bruce" does not already exist(accountMenuAddressesPersonAll.feature:157)
+Scenario: Check if the keyword filter is correct [Knowhow]  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Person list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.addresses.AddressCreatePersonSteps.i_have_checked_that_the_person_does_not_already_exist(AddressCreatePersonSteps.java:43)
+	at ?.And I have checked that the person "Banner, Bruce" does not already exist(accountMenuAddressesPersonAll.feature:157)
+And I have checked that the person \"Banner\u002C Bruce\" does not already exist(Scenario: Check if the keyword filter is correct [Skill])  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Person list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.addresses.AddressCreatePersonSteps.i_have_checked_that_the_person_does_not_already_exist(AddressCreatePersonSteps.java:43)
+	at ?.And I have checked that the person "Banner, Bruce" does not already exist(accountMenuAddressesPersonAll.feature:171)
+Scenario: Check if the keyword filter is correct [Skill]  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Person list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.addresses.AddressCreatePersonSteps.i_have_checked_that_the_person_does_not_already_exist(AddressCreatePersonSteps.java:43)
+	at ?.And I have checked that the person "Banner, Bruce" does not already exist(accountMenuAddressesPersonAll.feature:171)
+And I have checked that the person \"Banner\u002C Bruce\" does not already exist(Scenario: Check if the keyword filter is correct [Projects])  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Person list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.addresses.AddressCreatePersonSteps.i_have_checked_that_the_person_does_not_already_exist(AddressCreatePersonSteps.java:43)
+	at ?.And I have checked that the person "Banner, Bruce" does not already exist(accountMenuAddressesPersonAll.feature:185)
+Scenario: Check if the keyword filter is correct [Projects]  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Person list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.addresses.AddressCreatePersonSteps.i_have_checked_that_the_person_does_not_already_exist(AddressCreatePersonSteps.java:43)
+	at ?.And I have checked that the person "Banner, Bruce" does not already exist(accountMenuAddressesPersonAll.feature:185)
+And I have checked that the person \"Wayne\u002C Bruce\" does not already exist(Scenario: Change person details [without contact types])  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: Person list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.addresses.AddressCreatePersonSteps.i_have_checked_that_the_person_does_not_already_exist(AddressCreatePersonSteps.java:43)
+	at ?.And I have checked that the person "Wayne, Bruce" does not already exist(accountMenuAddressesPersonEdit.feature:7)
+Scenario: Change person details [without contact types]  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: Person list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.addresses.AddressCreatePersonSteps.i_have_checked_that_the_person_does_not_already_exist(AddressCreatePersonSteps.java:43)
+	at ?.And I have checked that the person "Wayne, Bruce" does not already exist(accountMenuAddressesPersonEdit.feature:7)
+And I have checked that the person \"Wayne\u002C Bruce\" does not already exist(Scenario: Change person address)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Person list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.addresses.AddressCreatePersonSteps.i_have_checked_that_the_person_does_not_already_exist(AddressCreatePersonSteps.java:43)
+	at ?.And I have checked that the person "Wayne, Bruce" does not already exist(accountMenuAddressesPersonEdit.feature:36)
+Scenario: Change person address  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Person list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.addresses.AddressCreatePersonSteps.i_have_checked_that_the_person_does_not_already_exist(AddressCreatePersonSteps.java:43)
+	at ?.And I have checked that the person "Wayne, Bruce" does not already exist(accountMenuAddressesPersonEdit.feature:36)
+And I have checked that the person \"Wayne\u002C Bruce\" does not already exist(Scenario: Change person contact types)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Person list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.addresses.AddressCreatePersonSteps.i_have_checked_that_the_person_does_not_already_exist(AddressCreatePersonSteps.java:43)
+	at ?.And I have checked that the person "Wayne, Bruce" does not already exist(accountMenuAddressesPersonEdit.feature:56)
+Scenario: Change person contact types  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Person list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.addresses.AddressCreatePersonSteps.i_have_checked_that_the_person_does_not_already_exist(AddressCreatePersonSteps.java:43)
+	at ?.And I have checked that the person "Wayne, Bruce" does not already exist(accountMenuAddressesPersonEdit.feature:56)
+And I have checked that the person \"Wayne\u002C Bruce\" does not already exist(Scenario: Add new contact to an existing person)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Person list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.addresses.AddressCreatePersonSteps.i_have_checked_that_the_person_does_not_already_exist(AddressCreatePersonSteps.java:43)
+	at ?.And I have checked that the person "Wayne, Bruce" does not already exist(accountMenuAddressesPersonEdit.feature:72)
+Scenario: Add new contact to an existing person  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Person list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.addresses.AddressCreatePersonSteps.i_have_checked_that_the_person_does_not_already_exist(AddressCreatePersonSteps.java:43)
+	at ?.And I have checked that the person "Wayne, Bruce" does not already exist(accountMenuAddressesPersonEdit.feature:72)
+And I have checked that the person \"Wayne\u002C Bruce\" does not already exist(Scenario: Add a know how to an existing person)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Person list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.addresses.AddressCreatePersonSteps.i_have_checked_that_the_person_does_not_already_exist(AddressCreatePersonSteps.java:43)
+	at ?.And I have checked that the person "Wayne, Bruce" does not already exist(accountMenuAddressesPersonEdit.feature:86)
+Scenario: Add a know how to an existing person  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: Person list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.addresses.AddressCreatePersonSteps.i_have_checked_that_the_person_does_not_already_exist(AddressCreatePersonSteps.java:43)
+	at ?.And I have checked that the person "Wayne, Bruce" does not already exist(accountMenuAddressesPersonEdit.feature:86)
+And I have checked that the person \"Wayne\u002C Bruce\" does not already exist(Scenario: Remove a know how from an existing person)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Person list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.addresses.AddressCreatePersonSteps.i_have_checked_that_the_person_does_not_already_exist(AddressCreatePersonSteps.java:43)
+	at ?.And I have checked that the person "Wayne, Bruce" does not already exist(accountMenuAddressesPersonEdit.feature:97)
+Scenario: Remove a know how from an existing person  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Person list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.addresses.AddressCreatePersonSteps.i_have_checked_that_the_person_does_not_already_exist(AddressCreatePersonSteps.java:43)
+	at ?.And I have checked that the person "Wayne, Bruce" does not already exist(accountMenuAddressesPersonEdit.feature:97)
+And I have checked that the person \"Wayne\u002C Bruce\" does not already exist(Scenario: Add a skill to an existing person)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Person list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.addresses.AddressCreatePersonSteps.i_have_checked_that_the_person_does_not_already_exist(AddressCreatePersonSteps.java:43)
+	at ?.And I have checked that the person "Wayne, Bruce" does not already exist(accountMenuAddressesPersonEdit.feature:109)
+Scenario: Add a skill to an existing person  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Person list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.addresses.AddressCreatePersonSteps.i_have_checked_that_the_person_does_not_already_exist(AddressCreatePersonSteps.java:43)
+	at ?.And I have checked that the person "Wayne, Bruce" does not already exist(accountMenuAddressesPersonEdit.feature:109)
+And I have checked that the person \"Wayne\u002C Bruce\" does not already exist(Scenario: Remove a skill from an existing person)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Person list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.addresses.AddressCreatePersonSteps.i_have_checked_that_the_person_does_not_already_exist(AddressCreatePersonSteps.java:43)
+	at ?.And I have checked that the person "Wayne, Bruce" does not already exist(accountMenuAddressesPersonEdit.feature:121)
+Scenario: Remove a skill from an existing person  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Person list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.addresses.AddressCreatePersonSteps.i_have_checked_that_the_person_does_not_already_exist(AddressCreatePersonSteps.java:43)
+	at ?.And I have checked that the person "Wayne, Bruce" does not already exist(accountMenuAddressesPersonEdit.feature:121)
+And I have checked that the person \"Wayne\u002C Bruce\" does not already exist(Scenario: Add a new project to an existing person)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Person list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.addresses.AddressCreatePersonSteps.i_have_checked_that_the_person_does_not_already_exist(AddressCreatePersonSteps.java:43)
+	at ?.And I have checked that the person "Wayne, Bruce" does not already exist(accountMenuAddressesPersonEdit.feature:134)
+Scenario: Add a new project to an existing person  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Person list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.addresses.AddressCreatePersonSteps.i_have_checked_that_the_person_does_not_already_exist(AddressCreatePersonSteps.java:43)
+	at ?.And I have checked that the person "Wayne, Bruce" does not already exist(accountMenuAddressesPersonEdit.feature:134)
+And I have checked that the person \"Wayne\u002C Bruce\" does not already exist(Scenario: Remove a project from an existing person)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Person list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.addresses.AddressCreatePersonSteps.i_have_checked_that_the_person_does_not_already_exist(AddressCreatePersonSteps.java:43)
+	at ?.And I have checked that the person "Wayne, Bruce" does not already exist(accountMenuAddressesPersonEdit.feature:154)
+Scenario: Remove a project from an existing person  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Person list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.addresses.AddressCreatePersonSteps.i_have_checked_that_the_person_does_not_already_exist(AddressCreatePersonSteps.java:43)
+	at ?.And I have checked that the person "Wayne, Bruce" does not already exist(accountMenuAddressesPersonEdit.feature:154)
+And I have checked that the person \"Wayne\u002C Bruce\" does not already exist(Scenario: Edit person freelancer data)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: Person list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.addresses.AddressCreatePersonSteps.i_have_checked_that_the_person_does_not_already_exist(AddressCreatePersonSteps.java:43)
+	at ?.And I have checked that the person "Wayne, Bruce" does not already exist(accountMenuAddressesPersonEdit.feature:174)
+Scenario: Edit person freelancer data  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: Person list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.addresses.AddressCreatePersonSteps.i_have_checked_that_the_person_does_not_already_exist(AddressCreatePersonSteps.java:43)
+	at ?.And I have checked that the person "Wayne, Bruce" does not already exist(accountMenuAddressesPersonEdit.feature:174)
+Then all the elements looked for are being displayed(Scenario: Check elements addresses menu person new)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: personDetailsFormView.firstName is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.BaseSteps.all_the_elements_looked_for_are_being_displayed(BaseSteps.java:66)
+	at ?.Then all the elements looked for are being displayed(accountMenuAddressesPersonNew.feature:11)
+Scenario: Check elements addresses menu person new  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: personDetailsFormView.firstName is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.BaseSteps.all_the_elements_looked_for_are_being_displayed(BaseSteps.java:66)
+	at ?.Then all the elements looked for are being displayed(accountMenuAddressesPersonNew.feature:11)
+And I have checked that the person \"Wayne\u002C Bruce\" does not already exist(Scenario: Person new create success)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Person list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.addresses.AddressCreatePersonSteps.i_have_checked_that_the_person_does_not_already_exist(AddressCreatePersonSteps.java:43)
+	at ?.And I have checked that the person "Wayne, Bruce" does not already exist(accountMenuAddressesPersonNew.feature:44)
+Scenario: Person new create success  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Person list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.addresses.AddressCreatePersonSteps.i_have_checked_that_the_person_does_not_already_exist(AddressCreatePersonSteps.java:43)
+	at ?.And I have checked that the person "Wayne, Bruce" does not already exist(accountMenuAddressesPersonNew.feature:44)
+And I have checked that the person \"Wayne\u002C Bruce\" does not already exist(Scenario: Person new create success [minimal requirements])  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Person list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.addresses.AddressCreatePersonSteps.i_have_checked_that_the_person_does_not_already_exist(AddressCreatePersonSteps.java:43)
+	at ?.And I have checked that the person "Wayne, Bruce" does not already exist(accountMenuAddressesPersonNew.feature:73)
+Scenario: Person new create success [minimal requirements]  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Person list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.addresses.AddressCreatePersonSteps.i_have_checked_that_the_person_does_not_already_exist(AddressCreatePersonSteps.java:43)
+	at ?.And I have checked that the person "Wayne, Bruce" does not already exist(accountMenuAddressesPersonNew.feature:73)
+And I have checked that the person \"Wayne\u002C Bruce\" does not already exist(Scenario: Person new create error [missing contact type])  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: Person list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.addresses.AddressCreatePersonSteps.i_have_checked_that_the_person_does_not_already_exist(AddressCreatePersonSteps.java:43)
+	at ?.And I have checked that the person "Wayne, Bruce" does not already exist(accountMenuAddressesPersonNew.feature:85)
+Scenario: Person new create error [missing contact type]  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: Person list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.addresses.AddressCreatePersonSteps.i_have_checked_that_the_person_does_not_already_exist(AddressCreatePersonSteps.java:43)
+	at ?.And I have checked that the person "Wayne, Bruce" does not already exist(accountMenuAddressesPersonNew.feature:85)
+Then all the elements looked for are being displayed(Scenario: Check elements contact menu all)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: contactTableView.selectedForPerson.select is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.BaseSteps.all_the_elements_looked_for_are_being_displayed(BaseSteps.java:66)
+	at ?.Then all the elements looked for are being displayed(accountMenuContactAll.feature:12)
+Scenario: Check elements contact menu all  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: contactTableView.selectedForPerson.select is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.BaseSteps.all_the_elements_looked_for_are_being_displayed(BaseSteps.java:66)
+	at ?.Then all the elements looked for are being displayed(accountMenuContactAll.feature:12)
+When I want to create a new contact(Scenario: Check if it is possible to navigate the create contact page)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Contact list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.contact.ContactListSteps.i_want_to_create_a_new_contact(ContactListSteps.java:81)
+	at ?.When I want to create a new contact(accountMenuContactAll.feature:26)
+Scenario: Check if it is possible to navigate the create contact page  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Contact list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.contact.ContactListSteps.i_want_to_create_a_new_contact(ContactListSteps.java:81)
+	at ?.When I want to create a new contact(accountMenuContactAll.feature:26)
+And I provide the following data to the contact search filter(Scenario: Check if it is possible to clear the search filter)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Contact list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.contact.ContactListSteps.i_provide_the_following_data_to_the_contact_search_filter(ContactListSteps.java:30)
+	at ?.And I provide the following data to the contact search filter(accountMenuContactAll.feature:32)
+Scenario: Check if it is possible to clear the search filter  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Contact list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.contact.ContactListSteps.i_provide_the_following_data_to_the_contact_search_filter(ContactListSteps.java:30)
+	at ?.And I provide the following data to the contact search filter(accountMenuContactAll.feature:32)
+And I provide the following data to the contact search filter(Scenario: Check if the search results match the search filter criteria)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Contact list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.contact.ContactListSteps.i_provide_the_following_data_to_the_contact_search_filter(ContactListSteps.java:30)
+	at ?.And I provide the following data to the contact search filter(accountMenuContactAll.feature:44)
+Scenario: Check if the search results match the search filter criteria  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Contact list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.contact.ContactListSteps.i_provide_the_following_data_to_the_contact_search_filter(ContactListSteps.java:30)
+	at ?.And I provide the following data to the contact search filter(accountMenuContactAll.feature:44)
+And I provide the following data to the contact search filter(Scenario: Check if the search filters are correct)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Contact list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.contact.ContactListSteps.i_provide_the_following_data_to_the_contact_search_filter(ContactListSteps.java:30)
+	at ?.And I provide the following data to the contact search filter(accountMenuContactAll.feature:57)
+Scenario: Check if the search filters are correct  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Contact list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.contact.ContactListSteps.i_provide_the_following_data_to_the_contact_search_filter(ContactListSteps.java:30)
+	at ?.And I provide the following data to the contact search filter(accountMenuContactAll.feature:57)
+And I have checked that the contact \"Justice League\" does not already exist(Scenario: Change the details of an existing contact)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Contact list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.contact.ContactCreateSteps.i_have_checked_that_the_contact_does_not_already_exist(ContactCreateSteps.java:49)
+	at ?.And I have checked that the contact "Justice League" does not already exist(accountMenuContactEdit.feature:7)
+Scenario: Change the details of an existing contact  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Contact list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.contact.ContactCreateSteps.i_have_checked_that_the_contact_does_not_already_exist(ContactCreateSteps.java:49)
+	at ?.And I have checked that the contact "Justice League" does not already exist(accountMenuContactEdit.feature:7)
+And I have ensured that the contact \"Justice League\" already exist(Scenario: Add a new note to an existing contact)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Contact list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.contact.ContactCreateSteps.i_have_ensured_that_the_contact_i_want_to_edit_already_exist(ContactCreateSteps.java:140)
+	at ?.And I have ensured that the contact "Justice League" already exist(accountMenuContactEdit.feature:22)
+Scenario: Add a new note to an existing contact  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: Contact list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.contact.ContactCreateSteps.i_have_ensured_that_the_contact_i_want_to_edit_already_exist(ContactCreateSteps.java:140)
+	at ?.And I have ensured that the contact "Justice League" already exist(accountMenuContactEdit.feature:22)
+Then all the elements looked for are being displayed(Scenario: Check elements addresses menu person new)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: contactView.name is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.BaseSteps.all_the_elements_looked_for_are_being_displayed(BaseSteps.java:66)
+	at ?.Then all the elements looked for are being displayed(accountMenuContactNew.feature:12)
+Scenario: Check elements addresses menu person new  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: contactView.name is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.BaseSteps.all_the_elements_looked_for_are_being_displayed(BaseSteps.java:66)
+	at ?.Then all the elements looked for are being displayed(accountMenuContactNew.feature:12)
+And I have checked that the contact \"Justice League\" does not already exist(Scenario: Contact new create success)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Contact list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.contact.ContactCreateSteps.i_have_checked_that_the_contact_does_not_already_exist(ContactCreateSteps.java:49)
+	at ?.And I have checked that the contact "Justice League" does not already exist(accountMenuContactNew.feature:22)
+Scenario: Contact new create success  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Contact list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.contact.ContactCreateSteps.i_have_checked_that_the_contact_does_not_already_exist(ContactCreateSteps.java:49)
+	at ?.And I have checked that the contact "Justice League" does not already exist(accountMenuContactNew.feature:22)
+And I have checked that the contact \"Justice League\" does not already exist(Scenario: Contact new create success [minimal requirements])  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Contact list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.contact.ContactCreateSteps.i_have_checked_that_the_contact_does_not_already_exist(ContactCreateSteps.java:49)
+	at ?.And I have checked that the contact "Justice League" does not already exist(accountMenuContactNew.feature:36)
+Scenario: Contact new create success [minimal requirements]  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: Contact list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.contact.ContactCreateSteps.i_have_checked_that_the_contact_does_not_already_exist(ContactCreateSteps.java:49)
+	at ?.And I have checked that the contact "Justice League" does not already exist(accountMenuContactNew.feature:36)
+And I have checked that the contact \"Justice League\" does not already exist(Scenario: Contact new create failure)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Contact list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.contact.ContactCreateSteps.i_have_checked_that_the_contact_does_not_already_exist(ContactCreateSteps.java:49)
+	at ?.And I have checked that the contact "Justice League" does not already exist(accountMenuContactNew.feature:48)
+Scenario: Contact new create failure  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Contact list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.contact.ContactCreateSteps.i_have_checked_that_the_contact_does_not_already_exist(ContactCreateSteps.java:49)
+	at ?.And I have checked that the contact "Justice League" does not already exist(accountMenuContactNew.feature:48)
+Then all the elements looked for are being displayed(Scenario: Check elements job advertisement)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: jobAdvertisementListView.id is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.BaseSteps.all_the_elements_looked_for_are_being_displayed(BaseSteps.java:66)
+	at ?.Then all the elements looked for are being displayed(accountMenuJobAdvertisement.feature:21)
+Scenario: Check elements job advertisement  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: jobAdvertisementListView.id is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.BaseSteps.all_the_elements_looked_for_are_being_displayed(BaseSteps.java:66)
+	at ?.Then all the elements looked for are being displayed(accountMenuJobAdvertisement.feature:21)
+Then the dropdown menu \"jobAdvertisement.stateTypes\" contains the following items(Scenario: Check dropdown entries job advertisement)  Time elapsed: 0.001 sec  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"jobAdvertisement.stateTypes"}
+  (Session info: chrome=72.0.3626.81)
+  (Driver info: chromedriver=2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926),platform=Linux 4.9.125-linuxkit x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.15 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'DESKTOP-IN4UB21', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:41215}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926), userDataDir=/tmp/.org.chromium.Chromium.dmirPx}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=72.0.3626.81, browserConnectionEnabled=false, proxy={}, nativeEvents=true, webdriver.remote.sessionid=aa8521fab7e167859bdc0587a5008ef3, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: aa8521fab7e167859bdc0587a5008ef3
+*** Element info: {Using=id, value=jobAdvertisement.stateTypes}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:417)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at de.neusta.b4u.steps.BaseSteps.the_dropdown_menu_contains_the_following_items(BaseSteps.java:72)
+	at ?.Then the dropdown menu "jobAdvertisement.stateTypes" contains the following items(accountMenuJobAdvertisement.feature:37)
+Scenario: Check dropdown entries job advertisement  Time elapsed: 0.003 sec  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"jobAdvertisement.stateTypes"}
+  (Session info: chrome=72.0.3626.81)
+  (Driver info: chromedriver=2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926),platform=Linux 4.9.125-linuxkit x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.15 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'DESKTOP-IN4UB21', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:41215}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926), userDataDir=/tmp/.org.chromium.Chromium.dmirPx}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=72.0.3626.81, browserConnectionEnabled=false, proxy={}, nativeEvents=true, webdriver.remote.sessionid=aa8521fab7e167859bdc0587a5008ef3, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: aa8521fab7e167859bdc0587a5008ef3
+*** Element info: {Using=id, value=jobAdvertisement.stateTypes}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:417)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at de.neusta.b4u.steps.BaseSteps.the_dropdown_menu_contains_the_following_items(BaseSteps.java:72)
+	at ?.Then the dropdown menu "jobAdvertisement.stateTypes" contains the following items(accountMenuJobAdvertisement.feature:37)
+And I provide the following data to the job advertisement search filter(Scenario: Check if it is possible to clear the search filter)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Job advertisement list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.jobadvertisement.JobAdvertisementListSteps.i_provide_the_following_data_to_the_job_advertisement_search_filter(JobAdvertisementListSteps.java:29)
+	at ?.And I provide the following data to the job advertisement search filter(accountMenuJobAdvertisement.feature:46)
+Scenario: Check if it is possible to clear the search filter  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Job advertisement list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.jobadvertisement.JobAdvertisementListSteps.i_provide_the_following_data_to_the_job_advertisement_search_filter(JobAdvertisementListSteps.java:29)
+	at ?.And I provide the following data to the job advertisement search filter(accountMenuJobAdvertisement.feature:46)
+And I provide the following data to the job advertisement search filter(Scenario: Check if the search results match the search filter criteria)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Job advertisement list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.jobadvertisement.JobAdvertisementListSteps.i_provide_the_following_data_to_the_job_advertisement_search_filter(JobAdvertisementListSteps.java:29)
+	at ?.And I provide the following data to the job advertisement search filter(accountMenuJobAdvertisement.feature:59)
+Scenario: Check if the search results match the search filter criteria  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Job advertisement list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.jobadvertisement.JobAdvertisementListSteps.i_provide_the_following_data_to_the_job_advertisement_search_filter(JobAdvertisementListSteps.java:29)
+	at ?.And I provide the following data to the job advertisement search filter(accountMenuJobAdvertisement.feature:59)
+And I provide the following data to the job advertisement search filter(Scenario: Check if the search filters are correct)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Job advertisement list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.jobadvertisement.JobAdvertisementListSteps.i_provide_the_following_data_to_the_job_advertisement_search_filter(JobAdvertisementListSteps.java:29)
+	at ?.And I provide the following data to the job advertisement search filter(accountMenuJobAdvertisement.feature:73)
+Scenario: Check if the search filters are correct  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Job advertisement list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.jobadvertisement.JobAdvertisementListSteps.i_provide_the_following_data_to_the_job_advertisement_search_filter(JobAdvertisementListSteps.java:29)
+	at ?.And I provide the following data to the job advertisement search filter(accountMenuJobAdvertisement.feature:73)
+And I have ensured that the contact \"Justice League\" already exist(Scenario: Create a new job advertisement)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Contact list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.contact.ContactCreateSteps.i_have_ensured_that_the_contact_i_want_to_edit_already_exist(ContactCreateSteps.java:140)
+	at ?.And I have ensured that the contact "Justice League" already exist(accountMenuJobAdvertisement.feature:81)
+Scenario: Create a new job advertisement  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Contact list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.contact.ContactCreateSteps.i_have_ensured_that_the_contact_i_want_to_edit_already_exist(ContactCreateSteps.java:140)
+	at ?.And I have ensured that the contact "Justice League" already exist(accountMenuJobAdvertisement.feature:81)
+And I have ensured that the contact \"Justice League\" already exist(Scenario: Check if the selected note is shown when creating a new job advertisement)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: Contact list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.contact.ContactCreateSteps.i_have_ensured_that_the_contact_i_want_to_edit_already_exist(ContactCreateSteps.java:140)
+	at ?.And I have ensured that the contact "Justice League" already exist(accountMenuJobAdvertisement.feature:122)
+Scenario: Check if the selected note is shown when creating a new job advertisement  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: Contact list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.contact.ContactCreateSteps.i_have_ensured_that_the_contact_i_want_to_edit_already_exist(ContactCreateSteps.java:140)
+	at ?.And I have ensured that the contact "Justice League" already exist(accountMenuJobAdvertisement.feature:122)
+And I am on the job advertisement edit page of \"Superheld mit besonderen F\u00E4higkeiten (m\/w)\"(Scenario: Edit an existing job advertisement)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Job advertisement list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.jobadvertisement.JobAdvertisementEditSteps.i_am_on_the_job_advertisement_edit_page_of(JobAdvertisementEditSteps.java:117)
+	at ?.And I am on the job advertisement edit page of "Superheld mit besonderen Fähigkeiten (m/w)"(accountMenuJobAdvertisement.feature:131)
+Scenario: Edit an existing job advertisement  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Job advertisement list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.jobadvertisement.JobAdvertisementEditSteps.i_am_on_the_job_advertisement_edit_page_of(JobAdvertisementEditSteps.java:117)
+	at ?.And I am on the job advertisement edit page of "Superheld mit besonderen Fähigkeiten (m/w)"(accountMenuJobAdvertisement.feature:131)
+When I delete the job advertisement \"Superheld mit besonderen F\u00E4higkeiten (m\/w)\"(Scenario: Delete job advertisement)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Job advertisement list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.jobadvertisement.JobAdvertisementCreateSteps.i_delete_the_job_advertisement(JobAdvertisementCreateSteps.java:150)
+	at ?.When I delete the job advertisement "Superheld mit besonderen Fähigkeiten (m/w)"(accountMenuJobAdvertisement.feature:170)
+Scenario: Delete job advertisement  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Job advertisement list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.jobadvertisement.JobAdvertisementCreateSteps.i_delete_the_job_advertisement(JobAdvertisementCreateSteps.java:150)
+	at ?.When I delete the job advertisement "Superheld mit besonderen Fähigkeiten (m/w)"(accountMenuJobAdvertisement.feature:170)
+And I have checked that the job advertisement \"Superheld mit besonderen F\u00E4higkeiten (m\/w)\" does not already exist(Scenario: Add an applicant to an existing job advertisement)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Job advertisement list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.jobadvertisement.JobAdvertisementCreateSteps.i_have_checked_that_the_job_advertisement_does_not_already_exist(JobAdvertisementCreateSteps.java:88)
+	at ?.And I have checked that the job advertisement "Superheld mit besonderen Fähigkeiten (m/w)" does not already exist(accountMenuJobAdvertisement.feature:175)
+Scenario: Add an applicant to an existing job advertisement  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Job advertisement list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.jobadvertisement.JobAdvertisementCreateSteps.i_have_checked_that_the_job_advertisement_does_not_already_exist(JobAdvertisementCreateSteps.java:88)
+	at ?.And I have checked that the job advertisement "Superheld mit besonderen Fähigkeiten (m/w)" does not already exist(accountMenuJobAdvertisement.feature:175)
+Then all the elements looked for are being displayed(Scenario: Check elements tasks)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: taskTableView.taskPersonList is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.BaseSteps.all_the_elements_looked_for_are_being_displayed(BaseSteps.java:66)
+	at ?.Then all the elements looked for are being displayed(accountMenuTasks.feature:11)
+Scenario: Check elements tasks  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: taskTableView.taskPersonList is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.BaseSteps.all_the_elements_looked_for_are_being_displayed(BaseSteps.java:66)
+	at ?.Then all the elements looked for are being displayed(accountMenuTasks.feature:11)
+And the dropdown menu \"taskTableView.taskTypeList\" contains the following items(Scenario: Check dropdown entries task type)  Time elapsed: 0.001 sec  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"taskTableView.taskTypeList"}
+  (Session info: chrome=72.0.3626.81)
+  (Driver info: chromedriver=2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926),platform=Linux 4.9.125-linuxkit x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.07 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'DESKTOP-IN4UB21', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:34851}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926), userDataDir=/tmp/.org.chromium.Chromium.PoXp3V}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=72.0.3626.81, browserConnectionEnabled=false, proxy={}, nativeEvents=true, webdriver.remote.sessionid=29d34c1a75cd8bd009ce7e89dd273abc, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 29d34c1a75cd8bd009ce7e89dd273abc
+*** Element info: {Using=id, value=taskTableView.taskTypeList}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:417)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at de.neusta.b4u.steps.BaseSteps.the_dropdown_menu_contains_the_following_items(BaseSteps.java:72)
+	at ?.And the dropdown menu "taskTableView.taskTypeList" contains the following items(accountMenuTasks.feature:26)
+Scenario: Check dropdown entries task type  Time elapsed: 0.002 sec  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"taskTableView.taskTypeList"}
+  (Session info: chrome=72.0.3626.81)
+  (Driver info: chromedriver=2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926),platform=Linux 4.9.125-linuxkit x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.07 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'DESKTOP-IN4UB21', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:34851}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926), userDataDir=/tmp/.org.chromium.Chromium.PoXp3V}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=72.0.3626.81, browserConnectionEnabled=false, proxy={}, nativeEvents=true, webdriver.remote.sessionid=29d34c1a75cd8bd009ce7e89dd273abc, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 29d34c1a75cd8bd009ce7e89dd273abc
+*** Element info: {Using=id, value=taskTableView.taskTypeList}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:417)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at de.neusta.b4u.steps.BaseSteps.the_dropdown_menu_contains_the_following_items(BaseSteps.java:72)
+	at ?.And the dropdown menu "taskTableView.taskTypeList" contains the following items(accountMenuTasks.feature:26)
+And the dropdown menu \"taskTableView.taskStatusList\" contains the following items(Scenario: Check dropdown entries task status)  Time elapsed: 0.001 sec  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"taskTableView.taskStatusList"}
+  (Session info: chrome=72.0.3626.81)
+  (Driver info: chromedriver=2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926),platform=Linux 4.9.125-linuxkit x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.06 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'DESKTOP-IN4UB21', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:46507}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926), userDataDir=/tmp/.org.chromium.Chromium.eP6hKS}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=72.0.3626.81, browserConnectionEnabled=false, proxy={}, nativeEvents=true, webdriver.remote.sessionid=71fc5cd1f07b41fba5d15a632ff4804f, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 71fc5cd1f07b41fba5d15a632ff4804f
+*** Element info: {Using=id, value=taskTableView.taskStatusList}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:417)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at de.neusta.b4u.steps.BaseSteps.the_dropdown_menu_contains_the_following_items(BaseSteps.java:72)
+	at ?.And the dropdown menu "taskTableView.taskStatusList" contains the following items(accountMenuTasks.feature:39)
+Scenario: Check dropdown entries task status  Time elapsed: 0.002 sec  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"taskTableView.taskStatusList"}
+  (Session info: chrome=72.0.3626.81)
+  (Driver info: chromedriver=2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926),platform=Linux 4.9.125-linuxkit x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.06 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'DESKTOP-IN4UB21', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:46507}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926), userDataDir=/tmp/.org.chromium.Chromium.eP6hKS}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=72.0.3626.81, browserConnectionEnabled=false, proxy={}, nativeEvents=true, webdriver.remote.sessionid=71fc5cd1f07b41fba5d15a632ff4804f, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 71fc5cd1f07b41fba5d15a632ff4804f
+*** Element info: {Using=id, value=taskTableView.taskStatusList}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:417)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at de.neusta.b4u.steps.BaseSteps.the_dropdown_menu_contains_the_following_items(BaseSteps.java:72)
+	at ?.And the dropdown menu "taskTableView.taskStatusList" contains the following items(accountMenuTasks.feature:39)
+And I click on the menu entry \"navigationView.Aufgaben\"(|  | navigationView.Aufgaben | \/task\/list |)  Time elapsed: 0.002 sec  <<< ERROR!
+org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=72.0.3626.81)
+  (Driver info: chromedriver=2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926),platform=Linux 4.9.125-linuxkit x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.04 seconds
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'DESKTOP-IN4UB21', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:36355}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926), userDataDir=/tmp/.org.chromium.Chromium.mikkq1}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=72.0.3626.81, browserConnectionEnabled=false, proxy={}, nativeEvents=true, webdriver.remote.sessionid=a94683680034c650b8f89d735b6ed112, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: a94683680034c650b8f89d735b6ed112
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at de.neusta.b4u.steps.menu.MenuSteps.i_click_on_the_menu_entry(MenuSteps.java:52)
+	at ?.And I click on the menu entry "navigationView.Aufgaben"(accountMenuTasks.feature:48)
+|  | navigationView.Aufgaben | \/task\/list |  Time elapsed: 0.003 sec  <<< ERROR!
+org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=72.0.3626.81)
+  (Driver info: chromedriver=2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926),platform=Linux 4.9.125-linuxkit x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.04 seconds
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'DESKTOP-IN4UB21', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:36355}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926), userDataDir=/tmp/.org.chromium.Chromium.mikkq1}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=72.0.3626.81, browserConnectionEnabled=false, proxy={}, nativeEvents=true, webdriver.remote.sessionid=a94683680034c650b8f89d735b6ed112, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: a94683680034c650b8f89d735b6ed112
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at de.neusta.b4u.steps.menu.MenuSteps.i_click_on_the_menu_entry(MenuSteps.java:52)
+	at ?.And I click on the menu entry "navigationView.Aufgaben"(accountMenuTasks.feature:48)
+And I provide the following data to the task search filter(Scenario: Check if it is possible to clear the search filter)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Task list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.tasks.TaskListSteps.i_provide_the_following_data_to_the_task_search_filter(TaskListSteps.java:30)
+	at ?.And I provide the following data to the task search filter(accountMenuTasks.feature:57)
+Scenario: Check if it is possible to clear the search filter  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Task list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.tasks.TaskListSteps.i_provide_the_following_data_to_the_task_search_filter(TaskListSteps.java:30)
+	at ?.And I provide the following data to the task search filter(accountMenuTasks.feature:57)
+And I have ensured that the contact \"Justice League\" already exist(Scenario: Create a new task)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Contact list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.contact.ContactCreateSteps.i_have_ensured_that_the_contact_i_want_to_edit_already_exist(ContactCreateSteps.java:140)
+	at ?.And I have ensured that the contact "Justice League" already exist(accountMenuTasks.feature:69)
+Scenario: Create a new task  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Contact list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.contact.ContactCreateSteps.i_have_ensured_that_the_contact_i_want_to_edit_already_exist(ContactCreateSteps.java:140)
+	at ?.And I have ensured that the contact "Justice League" already exist(accountMenuTasks.feature:69)
+And I provide the following data to the task search filter(Scenario: Check if the search results match the search filter criteria)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Task list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.tasks.TaskListSteps.i_provide_the_following_data_to_the_task_search_filter(TaskListSteps.java:30)
+	at ?.And I provide the following data to the task search filter(accountMenuTasks.feature:90)
+Scenario: Check if the search results match the search filter criteria  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Task list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.tasks.TaskListSteps.i_provide_the_following_data_to_the_task_search_filter(TaskListSteps.java:30)
+	at ?.And I provide the following data to the task search filter(accountMenuTasks.feature:90)
+And I provide the following data to the task search filter(Scenario: Check if the search filters are correct)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Task list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.tasks.TaskListSteps.i_provide_the_following_data_to_the_task_search_filter(TaskListSteps.java:30)
+	at ?.And I provide the following data to the task search filter(accountMenuTasks.feature:104)
+Scenario: Check if the search filters are correct  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Task list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.tasks.TaskListSteps.i_provide_the_following_data_to_the_task_search_filter(TaskListSteps.java:30)
+	at ?.And I provide the following data to the task search filter(accountMenuTasks.feature:104)
+And I have ensured that the contact \"Justice League\" already exist(Scenario: Edit an existing task)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Contact list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.contact.ContactCreateSteps.i_have_ensured_that_the_contact_i_want_to_edit_already_exist(ContactCreateSteps.java:140)
+	at ?.And I have ensured that the contact "Justice League" already exist(accountMenuTasks.feature:113)
+Scenario: Edit an existing task  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Contact list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.contact.ContactCreateSteps.i_have_ensured_that_the_contact_i_want_to_edit_already_exist(ContactCreateSteps.java:140)
+	at ?.And I have ensured that the contact "Justice League" already exist(accountMenuTasks.feature:113)
+And I have ensured that the contact \"Justice League\" already exist(Scenario: Delete Task)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Contact list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.contact.ContactCreateSteps.i_have_ensured_that_the_contact_i_want_to_edit_already_exist(ContactCreateSteps.java:140)
+	at ?.And I have ensured that the contact "Justice League" already exist(accountMenuTasks.feature:130)
+Scenario: Delete Task  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Contact list page is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.contact.ContactCreateSteps.i_have_ensured_that_the_contact_i_want_to_edit_already_exist(ContactCreateSteps.java:140)
+	at ?.And I have ensured that the contact "Justice League" already exist(accountMenuTasks.feature:130)
+Then all the elements looked for are being displayed(Scenario: Check elements profile personal data)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: personDetailsFormView.url is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.BaseSteps.all_the_elements_looked_for_are_being_displayed(BaseSteps.java:66)
+	at ?.Then all the elements looked for are being displayed(accountProfilePersonalData.feature:12)
+Scenario: Check elements profile personal data  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: personDetailsFormView.url is displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at de.neusta.b4u.steps.BaseSteps.all_the_elements_looked_for_are_being_displayed(BaseSteps.java:66)
+	at ?.Then all the elements looked for are being displayed(accountProfilePersonalData.feature:12)
+Then the dropdown menu \"phoneFormView.phone[0].phoneTypes\" contains the following items(Scenario: Check dropdown phone types)  Time elapsed: 0.001 sec  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"phoneFormView.phone[0].phoneTypes"}
+  (Session info: chrome=72.0.3626.81)
+  (Driver info: chromedriver=2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926),platform=Linux 4.9.125-linuxkit x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.04 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'DESKTOP-IN4UB21', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:38971}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926), userDataDir=/tmp/.org.chromium.Chromium.SEFVtd}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=72.0.3626.81, browserConnectionEnabled=false, proxy={}, nativeEvents=true, webdriver.remote.sessionid=e6488b2e95470f5394c1f9df22bccd0e, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: e6488b2e95470f5394c1f9df22bccd0e
+*** Element info: {Using=id, value=phoneFormView.phone[0].phoneTypes}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:417)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at de.neusta.b4u.steps.BaseSteps.the_dropdown_menu_contains_the_following_items(BaseSteps.java:72)
+	at ?.Then the dropdown menu "phoneFormView.phone[0].phoneTypes" contains the following items(accountProfilePersonalData.feature:66)
+Scenario: Check dropdown phone types  Time elapsed: 0.002 sec  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"phoneFormView.phone[0].phoneTypes"}
+  (Session info: chrome=72.0.3626.81)
+  (Driver info: chromedriver=2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926),platform=Linux 4.9.125-linuxkit x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.04 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'DESKTOP-IN4UB21', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:38971}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926), userDataDir=/tmp/.org.chromium.Chromium.SEFVtd}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=72.0.3626.81, browserConnectionEnabled=false, proxy={}, nativeEvents=true, webdriver.remote.sessionid=e6488b2e95470f5394c1f9df22bccd0e, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: e6488b2e95470f5394c1f9df22bccd0e
+*** Element info: {Using=id, value=phoneFormView.phone[0].phoneTypes}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:417)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at de.neusta.b4u.steps.BaseSteps.the_dropdown_menu_contains_the_following_items(BaseSteps.java:72)
+	at ?.Then the dropdown menu "phoneFormView.phone[0].phoneTypes" contains the following items(accountProfilePersonalData.feature:66)
