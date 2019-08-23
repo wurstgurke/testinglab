@@ -3,6 +3,103 @@
   <component name="ChangeListManager">
     <list default="true" id="df29a230-5071-40b5-9b1a-3c461ac3a2ec" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../angular_cypress_example" beforeDir="false" afterPath="$PROJECT_DIR$/../angular_cypress_example" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/css/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/css/vendor/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/css/vendor/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/css/vendor/fira.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/fonts/eot/FiraSans-Medium.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/fonts/eot/FiraSans-Regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/fonts/ttf/FiraSans-Medium.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/fonts/ttf/FiraSans-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/fonts/woff/FiraSans-Medium.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/fonts/woff/FiraSans-Regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/img/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/img/javascript-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/js/scripts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/js/vendor/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/js/vendor/highlight.pack.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/js/vendor/jquery-1.12.0.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/js/vendor/jquery-1.12.0.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/commands/actions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/commands/aliasing.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/commands/assertions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/commands/connectors.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/commands/cookies.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/commands/files.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/commands/local-storage.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/commands/location.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/commands/misc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/commands/navigation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/commands/network-requests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/commands/querying.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/commands/spies-stubs-clocks.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/commands/traversal.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/commands/viewport.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/commands/waiting.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/commands/window.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/cypress-api.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/utilities.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic/.gitlab-ci.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic/.semaphore.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic/Jenkinsfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic/app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic/azure-ci.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic/circle.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic/codeship-pro/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic/codeship-pro/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic/codeship-pro/codeship-services.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic/codeship-pro/codeship-steps.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cypress/fixtures/example.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cypress/integration/examples/actions.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cypress/integration/examples/aliasing.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cypress/integration/examples/assertions.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cypress/integration/examples/connectors.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cypress/integration/examples/cookies.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cypress/integration/examples/cypress_api.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cypress/integration/examples/files.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cypress/integration/examples/local_storage.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cypress/integration/examples/location.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cypress/integration/examples/misc.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cypress/integration/examples/navigation.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cypress/integration/examples/network_requests.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cypress/integration/examples/querying.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cypress/integration/examples/spies_stubs_clocks.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cypress/integration/examples/traversal.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cypress/integration/examples/utilities.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cypress/integration/examples/viewport.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cypress/integration/examples/waiting.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cypress/integration/examples/window.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cypress/plugins/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cypress/support/commands.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cypress/support/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cypress_old/cypress.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cypress_old/cypress/fixtures/example.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cypress_old/cypress/integration/examples/actions.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cypress_old/cypress/integration/examples/aliasing.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cypress_old/cypress/integration/examples/assertions.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cypress_old/cypress/integration/examples/connectors.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cypress_old/cypress/integration/examples/cookies.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cypress_old/cypress/integration/examples/cypress_api.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cypress_old/cypress/integration/examples/files.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cypress_old/cypress/integration/examples/local_storage.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cypress_old/cypress/integration/examples/location.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cypress_old/cypress/integration/examples/misc.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cypress_old/cypress/integration/examples/navigation.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cypress_old/cypress/integration/examples/network_requests.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cypress_old/cypress/integration/examples/querying.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cypress_old/cypress/integration/examples/spies_stubs_clocks.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cypress_old/cypress/integration/examples/traversal.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cypress_old/cypress/integration/examples/utilities.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cypress_old/cypress/integration/examples/viewport.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cypress_old/cypress/integration/examples/waiting.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cypress_old/cypress/integration/examples/window.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cypress_old/cypress/plugins/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cypress_old/cypress/support/commands.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cypress_old/cypress/support/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cypress_old/package-lock.json" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,19 +123,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cypress/integration/examples/navigation.spec.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="61" selection-start-line="13" selection-start-column="61" selection-end-line="13" selection-end-column="61" />
+            <state relative-caret-position="-614">
+              <caret line="17" column="47" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -106,13 +194,6 @@
               <item name="cypress" type="462c0819:PsiDirectoryNode" />
               <item name="integration" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="cypress_kitchensink" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cypress_kitchensink" type="462c0819:PsiDirectoryNode" />
-              <item name="cypress" type="462c0819:PsiDirectoryNode" />
-              <item name="integration" type="462c0819:PsiDirectoryNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -160,12 +241,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1566551474810</updated>
-      <workItem from="1566551476088" duration="5990000" />
+      <workItem from="1566551476088" duration="6615000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5990000" />
+    <option name="totallyTimeSpent" value="6615000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -212,13 +293,6 @@
     <entry file="file://$PROJECT_DIR$/cypress.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="61" selection-start-line="13" selection-start-column="61" selection-end-line="13" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tsconfig.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -254,6 +328,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-614">
+          <caret line="17" column="47" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
         </state>
       </provider>
     </entry>
