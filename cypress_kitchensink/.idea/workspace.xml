@@ -4,6 +4,25 @@
     <list default="true" id="df29a230-5071-40b5-9b1a-3c461ac3a2ec" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../angular_cypress_example" beforeDir="false" afterPath="$PROJECT_DIR$/../angular_cypress_example" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/integration/examples/actions.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/integration/examples/aliasing.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/integration/examples/assertions.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/integration/examples/connectors.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/integration/examples/cookies.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/integration/examples/cypress_api.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/integration/examples/files.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/integration/examples/local_storage.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/integration/examples/location.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/integration/examples/misc.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/integration/examples/navigation.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/integration/examples/network_requests.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/integration/examples/querying.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/integration/examples/spies_stubs_clocks.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/integration/examples/traversal.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/integration/examples/utilities.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/integration/examples/viewport.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/integration/examples/waiting.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/integration/examples/window.spec.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,20 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cypress/integration/examples/actions.spec.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+            <state relative-caret-position="-70">
+              <caret line="13" column="61" lean-forward="true" selection-start-line="13" selection-start-column="61" selection-end-line="13" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -90,10 +100,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="552" />
-    <option name="y" value="-1209" />
-    <option name="width" value="1940" />
-    <option name="height" value="1050" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -112,19 +122,6 @@
               <item name="cypress_kitchensink" type="b2602c69:ProjectViewProjectNode" />
               <item name="cypress_kitchensink" type="462c0819:PsiDirectoryNode" />
               <item name="cypress" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cypress_kitchensink" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cypress_kitchensink" type="462c0819:PsiDirectoryNode" />
-              <item name="cypress" type="462c0819:PsiDirectoryNode" />
-              <item name="integration" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cypress_kitchensink" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cypress_kitchensink" type="462c0819:PsiDirectoryNode" />
-              <item name="cypress" type="462c0819:PsiDirectoryNode" />
-              <item name="integration" type="462c0819:PsiDirectoryNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -168,22 +165,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1566551474810</updated>
-      <workItem from="1566551476088" duration="2669000" />
+      <workItem from="1566551476088" duration="3165000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2669000" />
+    <option name="totallyTimeSpent" value="3165000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-1467" width="2062" height="1166" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18581419" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24966443" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
@@ -233,17 +231,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cypress/integration/examples/actions.spec.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-70">
+          <caret line="13" column="61" lean-forward="true" selection-start-line="13" selection-start-column="61" selection-end-line="13" selection-end-column="61" />
         </state>
       </provider>
     </entry>
