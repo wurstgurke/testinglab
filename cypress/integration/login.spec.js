@@ -4,6 +4,7 @@ describe('spt-membership-tests', () => {
     cy.get('#username').type('membership_admin')
     cy.get('#password').type('1234')
     cy.contains('einloggen').click()
+    cy.wait(3000)
     cy.contains('Logout').click()
   })
 })
