@@ -12,11 +12,7 @@ pipeline {
         sh 'npm run cy:verify'
       }
     }
-    stage('start local server') {
-      steps {
-        sh 'nohup npm run start:ci &'
-      }
-    }
+
     stage('run tests') {
       environment {
         CYPRESS_RECORD_KEY = credentials('cypress-example-kitchensink-record-key')
